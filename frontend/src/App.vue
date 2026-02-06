@@ -1,11 +1,17 @@
-<script setup></script>
+<script setup>
+import HomeComponent from "@/components/Home/HomeComponent.vue";
+import NavbarComponent from "@/components/Navbar/NavbarComponent.vue";
+import HeaderHeroComponent from "@/components/HeaderHeroComponent.vue";
+import FooterComponent from "@/components/Footer/FooterComponent.vue";
+import HomeView from "@/pages/Home/HomeView.vue";
+</script>
 
 <template>
-  <h1>You did it!</h1>
-  <p>
-    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
-    documentation
-  </p>
+  <HeaderHeroComponent />
+  <NavbarComponent />
+<!--  <HeaderHeroComponent />-->
+  <HomeView />
+  <FooterComponent />
 </template>
 
 <style scoped></style>
