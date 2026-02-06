@@ -9,8 +9,7 @@ import HomeView from "@/pages/Home/HomeView.vue";
 <template>
   <HeaderHeroComponent />
   <NavbarComponent />
-<!--  <HeaderHeroComponent />-->
-  <HomeView />
+  <RouterView />
   <FooterComponent />
 </template>
 

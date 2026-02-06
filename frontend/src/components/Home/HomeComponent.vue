@@ -5,8 +5,8 @@ import FeaturesComponent from "@/components/Home/FeaturesComponent.vue";
 </script>
 
 <template>
-  <FeaturesComponent />
   <WhyUsComponent />
+  <FeaturesComponent />
 </template>
 
 <style scoped>

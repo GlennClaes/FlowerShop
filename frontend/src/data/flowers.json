@@ -1,0 +1,6 @@
+[
+  { "name": "Tulip Red", "category": "Tulpen", "image": "/assets/images/tulip-red.jpg", "price": "€3,99" },
+  { "name": "Tulip Yellow", "category": "Tulpen", "image": "/assets/images/tulip-yellow.jpg", "price": "€4,50" },
+  { "name": "Rose Red", "category": "Rozen", "image": "/assets/images/rose-red.jpg", "price": "€5,00" },
+  { "name": "Rose Pink", "category": "Rozen", "image": "/assets/images/rose-pink.jpg", "price": "€5,50" }
+]
