@@ -13,7 +13,7 @@
             <div class="row">
               <div class="col-12 col-md-12 col-lg-4 image-wrapper">
                 <img class="w-100"
-                     src="../../assets/images/bontgekleurd-boeket.webp"
+                     src="../../../public/assets/images/bontgekleurd-boeket.webp"
                      alt="Mobirise Website Builder">
               </div>
               <div class="col-12 col-lg col-md-12">
@@ -26,7 +26,7 @@
                     van.<br><br>Heb je hulp nodig bij het kiezen of wil je weten wat er nu in bloei
                     staat? Neem direct contact met ons op, we helpen je graag.<br>
                   </p>
-                  <div class="mbr-section-btn mt-3"><a class="btn btn-lg btn-secondary display-7"
+                  <div class="mbr-section-btn mt-3"><a class="btn btn-secondary display-7"
                                                        href="https://wa.me/320476038971">Aanvragen</a>
                   </div>
                 </div>

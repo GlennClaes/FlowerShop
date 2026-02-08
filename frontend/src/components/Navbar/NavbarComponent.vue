@@ -1,85 +1,65 @@
 <script setup>
+import { ref } from 'vue';
+
+const isActive = ref(false);
+
+const toggleMenu = () => {
+  isActive.value = !isActive.value;
+};
+
+const closeMenu = () => {
+  isActive.value = false;
+};
 </script>
 
 <template>
-  <section data-bs-version="5.1" class="menu menu1 cid-v8hmAqgQnC" once="menu" id="menu01-1l">
+  <section class="menu menu1 cid-v8hmAqgQnC" id="menu01-1l">
     <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
       <div class="container">
         <div class="navbar-brand">
           <span class="navbar-logo">
             <router-link to="/">
-              <img src="../../assets/images/wf-logo-web-symbol-colour201201-128x128.webp"
+              <img src="/assets/images/wf-logo-web-symbol-colour201201-128x128.webp"
                    alt="Logo" style="height: 4rem;">
             </router-link>
           </span>
         </div>
 
-        <button class="navbar-toggler" type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent"
-                aria-expanded="false"
-                aria-label="Toggle navigation">
-          <div class="hamburger">
-            <span></span><span></span><span></span><span></span>
-          </div>
+        <button
+          class="hamburger d-lg-none text-secondary"
+          type="button"
+          :class="{ 'is-active': isActive }"
+          @click="toggleMenu"
+          aria-label="Menu openen"
+        >
+          <span class="line"></span>
+          <span class="line"></span>
+          <span class="line"></span>
         </button>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <div class="collapse navbar-collapse" :class="{ 'show': isActive }">
           <ul class="navbar-nav nav-dropdown nav-right">
             <li class="nav-item">
-              <router-link class="nav-link link text-secondary display-4" to="/home">
+              <router-link class="nav-link link text-secondary display-4 fs-5" to="/home" @click="closeMenu">
                 Home
               </router-link>
             </li>
-
-            <li class="nav-item dropdown" data-bs-auto-close="outside">
-              <a class="nav-link link dropdown-toggle text-secondary display-4"
-                 href="#"
-                 role="button"
-                 data-bs-toggle="dropdown"
-                 aria-expanded="false">
-                Bloemen
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <router-link class="dropdown-item text-secondary display-4" to="/bloemen" @click.stop>
-                    Alle bloemen
-                  </router-link>
-                </li>
-                <li>
-                  <router-link class="dropdown-item text-secondary display-4" :to="{ path: '/bloemen/Tulpen' }" @click.stop>
-                    Tulpen
-                  </router-link>
-                </li>
-                <li>
-                  <router-link class="dropdown-item text-secondary display-4" :to="{ path: '/bloemen/Rozen' }" @click.stop>
-                    Rozen
-                  </router-link>
-                </li>
-              </ul>
-            </li>
-
             <li class="nav-item">
-              <router-link class="nav-link link text-secondary display-4" to="/boeketten">
+              <router-link class="nav-link link text-secondary display-4 fs-5" to="/bloemen" @click="closeMenu">
+                Bloemen
+              </router-link>
+            </li>
+            <li class="nav-item">
+              <router-link class="nav-link link text-secondary display-4 fs-5" to="/boeketten" @click="closeMenu">
                 Boeketten
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link link text-secondary display-4" to="/contact">
+              <router-link class="nav-link link text-secondary display-4 fs-5" to="/contact" @click="closeMenu">
                 Contact
               </router-link>
             </li>
           </ul>
-
-          <div class="icons-menu">
-            <a class="iconfont-wrapper" href="tel:0476038971">
-              <span class="p-2 mbr-iconfont mobi-mbri-phone mobi-mbri"></span>
-            </a>
-            <a class="iconfont-wrapper" href="mailto:naam@email.com">
-              <span class="p-2 mbr-iconfont mobi-mbri-letter mobi-mbri"></span>
-            </a>
-          </div>
         </div>
       </div>
     </nav>
@@ -87,14 +67,62 @@
 </template>
 
 <style scoped>
-/* Behoud de Mobirise styling, maar zorg dat dropdowns zichtbaar zijn */
-.dropdown-menu {
-  margin-top: 0;
+/* Hamburger styling */
+.hamburger {
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 22px;
+  z-index: 1001; /* Zorg dat hij boven het menu blijft */
 }
-/* Optioneel: Dropdown openen bij hover (voor desktop) */
+
+.hamburger .line {
+  display: block;
+  width: 100%;
+  height: 3px;
+  border-radius: 2px;
+  transition: all 0.3s ease-in-out;
+  background-color: var(--bs-secondary);
+}
+
+/* Animatie naar Kruisje */
+.hamburger.is-active .line:nth-child(1) {
+  transform: translateY(9.5px) rotate(45deg);
+}
+.hamburger.is-active .line:nth-child(2) {
+  opacity: 0;
+}
+.hamburger.is-active .line:nth-child(3) {
+  transform: translateY(-9.5px) rotate(-45deg);
+}
+
+/* Mobiele weergave van de lijst */
+@media (max-width: 991px) {
+  .navbar-collapse {
+    display: none; /* Standaard verbergen */
+    width: 100%;
+    background-color: white; /* Of je gewenste kleur */
+    padding: 1rem 0;
+  }
+
+  /* De 'show' class dwingt het menu te tonen */
+  .navbar-collapse.show {
+    display: block !important;
+  }
+}
+
+/* Desktop weergave */
 @media (min-width: 992px) {
-  .nav-item.dropdown:hover .dropdown-menu {
-    display: block;
+  .hamburger {
+    display: none !important;
+  }
+  .navbar-collapse {
+    display: flex !important;
   }
 }
 </style>

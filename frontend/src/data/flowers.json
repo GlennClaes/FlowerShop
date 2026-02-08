@@ -1,6 +1,10 @@
 [
-  { "name": "Tulip Red", "category": "Tulpen", "image": "/assets/images/tulip-red.jpg", "price": "€3,99" },
-  { "name": "Tulip Yellow", "category": "Tulpen", "image": "/assets/images/tulip-yellow.jpg", "price": "€4,50" },
-  { "name": "Rose Red", "category": "Rozen", "image": "/assets/images/rose-red.jpg", "price": "€5,00" },
-  { "name": "Rose Pink", "category": "Rozen", "image": "/assets/images/rose-pink.jpg", "price": "€5,50" }
+  { "name": "Tulip Red", "category": "Tulpen", "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-596x335.webp", "price": "€3,99" },
+  { "name": "Tulip Yellow", "category": "Tulpen", "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-816x459.webp", "price": "€4,50" },
+  { "name": "Tulip Red", "category": "Tulpen", "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-596x335.webp", "price": "€3,99" },
+  { "name": "Tulip Yellow", "category": "Tulpen", "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-816x459.webp", "price": "€4,50" },
+  { "name": "Rose Red", "category": "Rozen", "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-1920x1080.webp", "price": "€5,00" },
+  { "name": "Rose Pink", "category": "Rozen", "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-1920x1080.webp", "price": "€5,50" },
+  { "name": "Rose Red", "category": "Rozen", "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-1920x1080.webp", "price": "€5,00" },
+  { "name": "Rose Pink", "category": "Rozen", "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-1920x1080.webp", "price": "€5,50" }
 ]

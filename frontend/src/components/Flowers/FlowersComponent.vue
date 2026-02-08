@@ -38,8 +38,8 @@ const categories = [...new Set(flowersStore.flowers.map(f => f.category))];
               <img :src="flower.image" :alt="flower.name" :data-slide-to="index" :data-bs-slide-to="index">
             </div>
             <div class="item-content">
-              <h5 class="item-title mbr-fonts-style display-5"><strong>{{ flower.name }}</strong></h5>
-              <h6 class="item-subtitle mbr-fonts-style display-7">{{ flower.price }}</h6>
+              <h5 class="item-title mbr-fonts-style display-5 fs-4"><strong>{{ flower.name }}</strong></h5>
+              <h6 class="item-subtitle mbr-fonts-style display-7 fs-5">{{ flower.price }}</h6>
             </div>
           </div>
         </div>
@@ -54,10 +54,10 @@ const categories = [...new Set(flowersStore.flowers.map(f => f.category))];
         <div class="card col-md-12 col-lg-10">
           <div class="card-wrapper">
             <div class="card-box align-left">
-              <h4 class="card-title mbr-fonts-style display-2">
+              <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
                 <strong>Bloemen die écht vers zijn!</strong>
-              </h4>
-              <p class="mbr-text mbr-fonts-style mt-4 display-7">
+              </h1>
+              <p class="mbr-text mbr-fonts-style mb-4 display-7">
                 De meeste bloemen in de winkel hebben al een hele reis achter de rug, maar die van
                 ons niet. Wij kweken onze bloemen gewoon zelf in onze eigen tuin. Elke ochtend lopen
                 we de tuin in om de mooiste bloemen met de hand te plukken. <br><br>Hierdoor zijn ze
