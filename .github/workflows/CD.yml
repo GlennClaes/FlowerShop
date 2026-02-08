@@ -25,17 +25,20 @@ jobs:
         with:
           node-version: '20'
           cache: 'npm'
+          cache-dependency-path: frontend/package-lock.json  # <-- belangrijk
 
       - name: Install dependencies
+        working-directory: frontend       # <-- toevoegen
         run: npm ci
 
       - name: Build
+        working-directory: frontend       # <-- toevoegen
         run: npm run build
 
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: dist
+          path: frontend/dist            # <-- frontend toevoegen
 
       - name: Deploy to GitHub Pages
         uses: actions/deploy-pages@v4
