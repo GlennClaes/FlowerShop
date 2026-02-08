@@ -1,19 +1,17 @@
 <script setup>
-import { ref, computed } from "vue";
-import { useFlowersStore } from "@/stores/flowersStore";
+import { computed } from 'vue'
+import { useFlowersStore } from '@/stores/flowersStore'
 
-// Props: category die je wilt tonen
-defineProps({
+const props = defineProps({
   category: {
     type: String,
-    required: true
-  }
-});
+    required: true,
+  },
+})
 
-const flowersStore = useFlowersStore();
+const flowersStore = useFlowersStore()
 
-// Filter alle bloemen voor deze categorie
-const filteredFlowers = computed(() => flowersStore.getByCategory(category));
+const filteredFlowers = computed(() => flowersStore.getByCategory(props.category))
 </script>
 
 <template>
@@ -37,10 +35,17 @@ const filteredFlowers = computed(() => flowersStore.getByCategory(category));
         >
           <div class="item-wrapper">
             <div class="item-img">
-              <img :src="flower.image" :alt="flower.name" :data-slide-to="index" :data-bs-slide-to="index">
+              <img
+                :src="flower.image"
+                :alt="flower.name"
+                :data-slide-to="index"
+                :data-bs-slide-to="index"
+              />
             </div>
             <div class="item-content">
-              <h5 class="item-title mbr-fonts-style display-5"><strong>{{ flower.name }}</strong></h5>
+              <h5 class="item-title mbr-fonts-style display-5">
+                <strong>{{ flower.name }}</strong>
+              </h5>
               <h6 class="item-subtitle mbr-fonts-style display-7">{{ flower.price }}</h6>
             </div>
           </div>

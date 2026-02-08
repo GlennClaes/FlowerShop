@@ -1,7 +1,6 @@
 <script setup>
-
-import WhyUsComponent from "@/components/Home/WhyUsComponent.vue";
-import FeaturesComponent from "@/components/Home/FeaturesComponent.vue";
+import WhyUsComponent from '@/components/Home/WhyUsComponent.vue'
+import FeaturesComponent from '@/components/Home/FeaturesComponent.vue'
 </script>
 
 <template>
@@ -9,6 +8,4 @@ import FeaturesComponent from "@/components/Home/FeaturesComponent.vue";
   <FeaturesComponent />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

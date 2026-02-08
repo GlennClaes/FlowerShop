@@ -1,10 +1,10 @@
 <script setup>
-import { useFlowersStore } from "@/stores/flowersStore";
+import { useFlowersStore } from '@/stores/flowersStore'
 
-const flowersStore = useFlowersStore();
+const flowersStore = useFlowersStore()
 
 // Haal alle categorieën uit de JSON
-const categories = [...new Set(flowersStore.flowers.map(f => f.category))];
+const categories = [...new Set(flowersStore.flowers.map((f) => f.category))]
 </script>
 
 <template>
@@ -35,10 +35,17 @@ const categories = [...new Set(flowersStore.flowers.map(f => f.category))];
         >
           <div class="item-wrapper">
             <div class="item-img">
-              <img :src="flower.image" :alt="flower.name" :data-slide-to="index" :data-bs-slide-to="index">
+              <img
+                :src="flower.image"
+                :alt="flower.name"
+                :data-slide-to="index"
+                :data-bs-slide-to="index"
+              />
             </div>
             <div class="item-content">
-              <h5 class="item-title mbr-fonts-style display-5 fs-4"><strong>{{ flower.name }}</strong></h5>
+              <h5 class="item-title mbr-fonts-style display-5 fs-4">
+                <strong>{{ flower.name }}</strong>
+              </h5>
               <h6 class="item-subtitle mbr-fonts-style display-7 fs-5">{{ flower.price }}</h6>
             </div>
           </div>
@@ -60,10 +67,10 @@ const categories = [...new Set(flowersStore.flowers.map(f => f.category))];
               <p class="mbr-text mbr-fonts-style mb-4 display-7">
                 De meeste bloemen in de winkel hebben al een hele reis achter de rug, maar die van
                 ons niet. Wij kweken onze bloemen gewoon zelf in onze eigen tuin. Elke ochtend lopen
-                we de tuin in om de mooiste bloemen met de hand te plukken. <br><br>Hierdoor zijn ze
-                vers en blijven ze veel langer mee. Het is een eerlijk product van eigen bodem, met
-                liefde voor de natuur grootgebracht. Zo haal je altijd iets bijzonders en gezonds in
-                huis.
+                we de tuin in om de mooiste bloemen met de hand te plukken. <br /><br />Hierdoor
+                zijn ze vers en blijven ze veel langer mee. Het is een eerlijk product van eigen
+                bodem, met liefde voor de natuur grootgebracht. Zo haal je altijd iets bijzonders en
+                gezonds in huis.
               </p>
             </div>
           </div>
@@ -72,7 +79,7 @@ const categories = [...new Set(flowersStore.flowers.map(f => f.category))];
     </div>
   </section>
 
-  <input name="animation" type="hidden">
+  <input name="animation" type="hidden" />
 </template>
 
 <style scoped>

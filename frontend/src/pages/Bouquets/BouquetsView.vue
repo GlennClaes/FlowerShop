@@ -1,12 +1,9 @@
 <script setup>
-
-import BouquetsComponent from "@/components/Bouquets/BouquetsComponent.vue";
+import BouquetsComponent from '@/components/Bouquets/BouquetsComponent.vue'
 </script>
 
 <template>
-<BouquetsComponent />
+  <BouquetsComponent />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

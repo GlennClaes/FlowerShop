@@ -1,0 +1,7 @@
+globalIgnores([
+  '**/dist/**',
+  '**/dist-ssr/**',
+  '**/coverage/**',
+  'public/assets/**',      // ← minified vendor code negeren
+  '**/*.min.js',           // ← alle minified JS
+])

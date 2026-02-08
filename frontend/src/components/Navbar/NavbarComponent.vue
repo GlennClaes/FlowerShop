@@ -1,15 +1,15 @@
 <script setup>
-import { ref } from 'vue';
+import { ref } from 'vue'
 
-const isActive = ref(false);
+const isActive = ref(false)
 
 const toggleMenu = () => {
-  isActive.value = !isActive.value;
-};
+  isActive.value = !isActive.value
+}
 
 const closeMenu = () => {
-  isActive.value = false;
-};
+  isActive.value = false
+}
 </script>
 
 <template>
@@ -19,8 +19,11 @@ const closeMenu = () => {
         <div class="navbar-brand">
           <span class="navbar-logo">
             <router-link to="/">
-              <img src="/assets/images/wf-logo-web-symbol-colour201201-128x128.webp"
-                   alt="Logo" style="height: 4rem;">
+              <img
+                src="/assets/images/wf-logo-web-symbol-colour201201-128x128.webp"
+                alt="Logo"
+                style="height: 4rem"
+              />
             </router-link>
           </span>
         </div>
@@ -37,25 +40,41 @@ const closeMenu = () => {
           <span class="line"></span>
         </button>
 
-        <div class="collapse navbar-collapse" :class="{ 'show': isActive }">
+        <div class="collapse navbar-collapse" :class="{ show: isActive }">
           <ul class="navbar-nav nav-dropdown nav-right">
             <li class="nav-item">
-              <router-link class="nav-link link text-secondary display-4 fs-5" to="/home" @click="closeMenu">
+              <router-link
+                class="nav-link link text-secondary display-4 fs-5"
+                to="/home"
+                @click="closeMenu"
+              >
                 Home
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link link text-secondary display-4 fs-5" to="/bloemen" @click="closeMenu">
+              <router-link
+                class="nav-link link text-secondary display-4 fs-5"
+                to="/bloemen"
+                @click="closeMenu"
+              >
                 Bloemen
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link link text-secondary display-4 fs-5" to="/boeketten" @click="closeMenu">
+              <router-link
+                class="nav-link link text-secondary display-4 fs-5"
+                to="/boeketten"
+                @click="closeMenu"
+              >
                 Boeketten
               </router-link>
             </li>
             <li class="nav-item">
-              <router-link class="nav-link link text-secondary display-4 fs-5" to="/contact" @click="closeMenu">
+              <router-link
+                class="nav-link link text-secondary display-4 fs-5"
+                to="/contact"
+                @click="closeMenu"
+              >
                 Contact
               </router-link>
             </li>

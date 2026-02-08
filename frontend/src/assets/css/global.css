@@ -1,7 +1,17 @@
 /* ===== Global CSS voor hele website ===== */
 
-
-body, h1, h2, h3, h4, h5, h6, p, a, li, button, input {
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+li,
+button,
+input {
   font-family: 'Inter Tight', sans-serif;
 }
 
@@ -9,17 +19,34 @@ body, h1, h2, h3, h4, h5, h6, p, a, li, button, input {
   font-family: 'Inter Tight', sans-serif;
 }
 
-.display-2, .display-3, .display-4, .display-5, .display-6, .display-7 {
+.display-2,
+.display-3,
+.display-4,
+.display-5,
+.display-6,
+.display-7 {
   font-family: 'Inter Tight', sans-serif;
 }
 
-.text-secondary { color: #6c757d !important; }
-.text-primary { color: #0d6efd !important; }
-.mbr-white { color: #fff !important; }
+.text-secondary {
+  color: #6c757d !important;
+}
+.text-primary {
+  color: #0d6efd !important;
+}
+.mbr-white {
+  color: #fff !important;
+}
 
-.btn { font-family: 'Inter Tight', sans-serif; }
-.navbar-nav .nav-link { font-family: 'Inter Tight', sans-serif; }
-.mbr-section-subtitle { font-family: 'Inter Tight', sans-serif; }
+.btn {
+  font-family: 'Inter Tight', sans-serif;
+}
+.navbar-nav .nav-link {
+  font-family: 'Inter Tight', sans-serif;
+}
+.mbr-section-subtitle {
+  font-family: 'Inter Tight', sans-serif;
+}
 
 /* ===== Animaties (van animate.css) ===== */
 .animated {

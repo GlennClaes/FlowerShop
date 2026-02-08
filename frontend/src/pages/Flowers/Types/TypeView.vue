@@ -1,10 +1,10 @@
 <script setup>
-import TypeComponent from "@/components/Flowers/Types/TypeComponent.vue";
+import TypeComponent from '@/components/Flowers/Types/TypeComponent.vue'
 
 // Props uit de router
 defineProps({
-  category: String
-});
+  category: String,
+})
 </script>
 
 <template>
@@ -12,5 +12,4 @@ defineProps({
   <TypeComponent :category="category" />
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

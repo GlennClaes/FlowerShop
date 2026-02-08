@@ -1,12 +1,9 @@
 <script setup>
-
-import ContactComponent from "@/components/Contact/ContactComponent.vue";
+import ContactComponent from '@/components/Contact/ContactComponent.vue'
 </script>
 
 <template>
-<ContactComponent />
+  <ContactComponent />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

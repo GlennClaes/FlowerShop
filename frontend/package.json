@@ -10,7 +10,7 @@
     "test:unit": "vitest",
     "test:e2e": "playwright test",
     "lint": "run-s lint:*",
-    "lint:oxlint": "oxlint . --fix",
+    "lint:oxlint": "oxlint src --fix",
     "lint:eslint": "eslint . --fix --cache",
     "format": "oxfmt src/"
   },
@@ -18,13 +18,14 @@
     "aos": "^2.3.4",
     "bootstrap": "^5.3.8",
     "pinia": "^3.0.4",
+    "playwright": "^1.58.2",
     "vue": "beta",
     "vue-router": "^5.0.1",
     "vuetify": "^3.11.8"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.2",
-    "@playwright/test": "^1.58.1",
+    "@playwright/test": "^1.58.2",
     "@vitejs/plugin-vue": "^6.0.3",
     "@vitejs/plugin-vue-jsx": "^5.1.3",
     "@vitest/eslint-plugin": "^1.6.6",

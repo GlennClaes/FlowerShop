@@ -1,16 +1,21 @@
 <script setup>
-import HomeComponent from "@/components/Home/HomeComponent.vue";
-import NavbarComponent from "@/components/Navbar/NavbarComponent.vue";
-import HeaderHeroComponent from "@/components/HeaderHeroComponent.vue";
-import FooterComponent from "@/components/Footer/FooterComponent.vue";
-import HomeView from "@/pages/Home/HomeView.vue";
+import NavbarComponent from '@/components/Navbar/NavbarComponent.vue'
+import HeaderHeroComponent from '@/components/HeaderHeroComponent.vue'
+import FooterComponent from '@/components/Footer/FooterComponent.vue'
 </script>
 
 <template>
-  <HeaderHeroComponent />
-  <NavbarComponent />
-  <RouterView />
-  <FooterComponent />
+  <!-- HeaderHeroComponent met data-test -->
+  <HeaderHeroComponent data-test="header-hero" />
+
+  <!-- NavbarComponent -->
+  <NavbarComponent data-test="navbar" />
+
+  <!-- RouterView -->
+  <RouterView data-test="router-view" />
+
+  <!-- FooterComponent -->
+  <FooterComponent data-test="footer" />
 </template>
 
 <style scoped></style>

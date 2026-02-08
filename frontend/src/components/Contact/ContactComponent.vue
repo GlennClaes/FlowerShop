@@ -48,9 +48,7 @@ function sendMessage() {
                   Email:
                   <a href="mailto:naam@email.com" class="text-secondary">naam@email.com</a>
                 </li>
-                <li class="mbr-text item-wrap">
-                  Adres: 350 5th Ave, New York, NY 10118
-                </li>
+                <li class="mbr-text item-wrap">Adres: 350 5th Ave, New York, NY 10118</li>
               </ul>
             </div>
           </div>
@@ -60,16 +58,17 @@ function sendMessage() {
           <div class="google-map">
             <iframe
               frameborder="0"
-              style="border:0"
+              style="border: 0"
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d66641.23545938493!2d5.129862966725924!3d50.72829951019849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c10e3ae5f28eb3%3A0x6c8aeb49a2374525!2sMontenaken%2C%203890%20Gingelom!5e1!3m2!1sen!2sbe!4v1768402293835!5m2!1sen!2sbe"
-              allowfullscreen>
+              allowfullscreen
+            >
             </iframe>
           </div>
         </div>
       </div>
     </div>
 
-    <input name="animation" type="hidden">
+    <input name="animation" type="hidden" />
   </section>
 
   <!-- WhatsApp formulier onder toevoegen -->
@@ -77,7 +76,7 @@ function sendMessage() {
     <div class="container">
       <h3>Stuur ons een bericht via WhatsApp</h3>
       <form @submit.prevent="sendMessage">
-        <input type="text" v-model="name" placeholder="Naam" required>
+        <input type="text" v-model="name" placeholder="Naam" required />
         <textarea v-model="message" placeholder="Bericht" required></textarea>
         <button type="submit">Verstuur via WhatsApp</button>
       </form>
@@ -86,14 +85,15 @@ function sendMessage() {
 </template>
 
 <style scoped>
-input, textarea {
+input,
+textarea {
   display: block;
   width: 100%;
   margin-bottom: 1rem;
   padding: 0.5rem;
 }
 button {
-  background-color: #25D366; /* WhatsApp groen */
+  background-color: #25d366; /* WhatsApp groen */
   color: white;
   padding: 0.5rem 1rem;
   border: none;
