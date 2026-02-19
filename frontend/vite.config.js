@@ -4,7 +4,7 @@ import vueJsx from '@vitejs/plugin-vue-jsx'
 import { fileURLToPath, URL } from 'node:url'
 
 export default defineConfig({
-  base: '/FlowerShop/',
+  base: '/',
   plugins: [
     vue(),
     vueJsx()
