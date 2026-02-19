@@ -1,3 +1,44 @@
+#version: "3.9"
+#
+#services:
+#  frontend:
+#    image: glennclaes123/flowershop-frontend:latest
+#    container_name: flowershop_frontend
+#    restart: always
+#    labels:
+#      - "traefik.enable=true"
+#      - "traefik.http.routers.frontend.rule=Host(`www.mijnflowershop.be`)"
+#      - "traefik.http.routers.frontend.entrypoints=websecure"
+#      - "traefik.http.routers.frontend.tls=true"
+#      - "traefik.http.routers.frontend.tls.certresolver=myresolver"
+#    networks:
+#      - web
+#
+#  traefik:
+#    image: traefik:v3.0
+#    container_name: traefik
+#    restart: always
+#    command:
+#      - "--api.insecure=true"
+#      - "--providers.docker=true"
+#      - "--entrypoints.web.address=:80"
+#      - "--entrypoints.websecure.address=:443"
+#      - "--certificatesresolvers.myresolver.acme.tlschallenge=true"
+#      - "--certificatesresolvers.myresolver.acme.email=jouw-email@example.com"
+#      - "--certificatesresolvers.myresolver.acme.storage=/letsencrypt/acme.json"
+#    ports:
+#      - "80:80"
+#      - "443:443"
+#    volumes:
+#      - "/var/run/docker.sock:/var/run/docker.sock:ro"
+#      - "./letsencrypt:/letsencrypt"
+#    networks:
+#      - web
+#
+#networks:
+#  web:
+#    external: true
+
 version: "3.9"
 
 services:
@@ -7,10 +48,14 @@ services:
     restart: always
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.frontend.rule=Host(`www.mijnflowershop.be`)"
-      - "traefik.http.routers.frontend.entrypoints=websecure"
-      - "traefik.http.routers.frontend.tls=true"
-      - "traefik.http.routers.frontend.tls.certresolver=myresolver"
+      # tijdelijke IP-access, alleen HTTP
+      - "traefik.http.routers.frontend-ip.rule=PathPrefix(`/`)"
+      - "traefik.http.routers.frontend-ip.entrypoints=web"
+      # later domein + HTTPS
+      - "traefik.http.routers.frontend-domain.rule=Host(`www.mijnflowershop.be`)"
+      - "traefik.http.routers.frontend-domain.entrypoints=websecure"
+      - "traefik.http.routers.frontend-domain.tls=true"
+      - "traefik.http.routers.frontend-domain.tls.certresolver=myresolver"
     networks:
       - web
 
