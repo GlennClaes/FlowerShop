@@ -8,7 +8,6 @@ on:
 
 permissions:
   contents: read
-  pages: write
   id-token: write
 
 jobs:
@@ -20,25 +19,28 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Login to Docker Hub
+        uses: docker/login-action@v3
         with:
-          node-version: '20'
-          cache: 'npm'
-          cache-dependency-path: frontend/package-lock.json  # <-- belangrijk
+          username: ${{ secrets.DOCKERHUB_USERNAME }}
+          password: ${{ secrets.DOCKERHUB_TOKEN }}
 
-      - name: Install dependencies
-        working-directory: frontend       # <-- toevoegen
-        run: npm ci
-
-      - name: Build
-        working-directory: frontend       # <-- toevoegen
-        run: npm run build
-
-      - name: Upload build artifact
-        uses: actions/upload-pages-artifact@v3
+      - name: Build and push Docker image
+        uses: docker/build-push-action@v5
         with:
-          path: frontend/dist            # <-- frontend toevoegen
+          context: ./frontend
+          push: true
+          tags: |
+            glennclaes123/flowershop-frontend:latest
+            glennclaes123/flowershop-frontend:${{ github.sha }}
 
-      - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v4
+      - name: Deploy on server
+        uses: appleboy/ssh-action@v1.0.3
+        with:
+          host: ${{ secrets.SERVER_HOST }}
+          username: ${{ secrets.SERVER_USER }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          script: |
+            cd ~/flowershop
+            docker compose pull
+            docker compose up -d
