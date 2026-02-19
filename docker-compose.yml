@@ -5,10 +5,8 @@ services:
     image: glennclaes123/flowershop-frontend:latest
     container_name: flowershop_frontend
     restart: always
-    # Geen 'ports' hier, Traefik regelt de toegang via het 'web' netwerk
     labels:
       - "traefik.enable=true"
-      # Tijdelijke toegang via IP/Host op poort 80
       - "traefik.http.routers.frontend.rule=PathPrefix(`/`)"
       - "traefik.http.routers.frontend.entrypoints=web"
       - "traefik.http.services.frontend.loadbalancer.server.port=80"
@@ -16,12 +14,10 @@ services:
       - web
 
   traefik:
-    image: traefik:v3.0
+    # GEBRUIK v2.11 - deze ondersteunt oudere Docker versies beter
+    image: traefik:v2.11
     container_name: traefik
     restart: always
-    environment:
-      # Fix voor de "API version too old" error:
-      - DOCKER_API_VERSION=1.24
     command:
       - "--api.insecure=true"
       - "--providers.docker=true"
