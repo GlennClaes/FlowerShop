@@ -51,11 +51,12 @@ services:
       # tijdelijke IP-access, alleen HTTP
       - "traefik.http.routers.frontend-ip.rule=PathPrefix(`/`)"
       - "traefik.http.routers.frontend-ip.entrypoints=web"
+      - "traefik.http.services.frontend.loadbalancer.server.port=80" # interne poort van de container
       # later domein + HTTPS
-      - "traefik.http.routers.frontend-domain.rule=Host(`www.mijnflowershop.be`)"
-      - "traefik.http.routers.frontend-domain.entrypoints=websecure"
-      - "traefik.http.routers.frontend-domain.tls=true"
-      - "traefik.http.routers.frontend-domain.tls.certresolver=myresolver"
+#      - "traefik.http.routers.frontend-domain.rule=Host(`www.mijnflowershop.be`)"
+#      - "traefik.http.routers.frontend-domain.entrypoints=websecure"
+#      - "traefik.http.routers.frontend-domain.tls=true"
+#      - "traefik.http.routers.frontend-domain.tls.certresolver=myresolver"
     networks:
       - web
 
