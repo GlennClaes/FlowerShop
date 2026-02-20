@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   frontend:
-    image: glennclaes123/flowershop-frontend:latest
+    image: glennclaes123/flowershop-frontend:${IMAGE_TAG}
     container_name: flowershop_frontend
     restart: always
     ports:
