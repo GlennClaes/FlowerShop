@@ -40,6 +40,5 @@ jobs:
             mkdir -p ~/flowershop
             cd ~/flowershop
             # Zorg dat de docker-compose.yml hier al staat of copy hem mee
-            export IMAGE_TAG=${{ github.sha }}
             docker compose pull 
             docker compose up -d --force-recreate
