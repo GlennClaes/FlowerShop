@@ -26,9 +26,7 @@ jobs:
         with:
           context: ./frontend
           push: true
-          tags: |
-            glennclaes123/flowershop-frontend:${{ github.sha }}
-            glennclaes123/flowershop-frontend:latest
+          tags: glennclaes123/flowershop-frontend:latest
 
       - name: Deploy on server
         uses: appleboy/ssh-action@v1.0.3
