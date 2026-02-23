@@ -4,6 +4,7 @@
 
 <template>
 <!--  <BouquetsComponent />-->
+  <div></div>
 </template>
 
 <style scoped></style>

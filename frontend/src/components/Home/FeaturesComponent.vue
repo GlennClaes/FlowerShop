@@ -1,4 +1,5 @@
-<script setup></script>
+<script setup>
+</script>
 
 <template>
 <!--  <section data-bs-version="5.1" class="features034 cid-v8hfYerqrH" id="features034-1i">-->
@@ -40,6 +41,7 @@
 <!--      </div>-->
 <!--    </div>-->
 <!--  </section>-->
+  <div></div>
 </template>
 
 <style scoped></style>

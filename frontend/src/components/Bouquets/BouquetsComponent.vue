@@ -1,6 +1,6 @@
-<!--<script setup></script>-->
+<script setup></script>
 
-<!--<template>-->
+<template>
 <!--  <section data-bs-version="5.1" class="start article05 cid-v8hJX4hjVg" id="article05-2g">-->
 <!--    <div class="container">-->
 <!--      <div class="row justify-content-center align-items-center">-->
@@ -38,6 +38,7 @@
 <!--      </div>-->
 <!--    </div>-->
 <!--  </section>-->
-<!--</template>-->
+  <div></div>
+</template>
 
-<!--<style scoped></style>-->
+<style scoped></style>
