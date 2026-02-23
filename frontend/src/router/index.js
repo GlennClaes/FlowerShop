@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '@/pages/Home/HomeView.vue'
 import ContactView from '@/pages/Contact/ContactView.vue'
 import FlowersView from '@/pages/Flowers/FlowersView.vue'
-import BouquetsView from '@/pages/Bouquets/BouquetsView.vue'
+// import BouquetsView from '@/pages/Bouquets/BouquetsView.vue'
 import TypeView from '@/pages/Flowers/Types/TypeView.vue'
 
 const routes = [
@@ -16,7 +16,7 @@ const routes = [
     component: TypeView,
     props: true,
   },
-  { path: '/boeketten', name: 'Boeketten', component: BouquetsView },
+  // { path: '/boeketten', name: 'Boeketten', component: BouquetsView },
 ]
 
 const router = createRouter({

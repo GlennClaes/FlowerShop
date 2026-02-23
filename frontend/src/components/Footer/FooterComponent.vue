@@ -10,67 +10,52 @@ const jaar = ref(new Date().getFullYear())
     <div class="container">
       <div class="row mbr-white">
         <div class="col-12 col-md-6 col-lg-3">
-          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
-            <strong>Christine Schevenels</strong>
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-6">
+            <strong>Bloemenhoeve</strong>
           </h5>
           <ul class="list mbr-fonts-style display-7">
             <li class="mbr-text item-wrap fs-5">Dit is een website.</li>
           </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
-          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-6">
             <strong>Navigatie</strong>
           </h5>
           <ul class="list mbr-fonts-style display-7">
             <li class="mbr-text item-wrap fs-5">
-              <router-link class="nav-link link text-secondary display-4 fs-5" to="/home"
-                >Home</router-link
-              >
+              <router-link class="footer-btn-pill text-secondary display-4 fs-5" to="/home">Home</router-link>
             </li>
             <li class="mbr-text item-wrap fs-5">
-              <router-link class="nav-link link text-secondary display-4 fs-5" to="/bloemen"
-                >Bloemen</router-link
-              >
+              <router-link class="footer-btn-pill text-secondary display-4 fs-5" to="/bloemen">Bloemen</router-link>
             </li>
             <li class="mbr-text item-wrap fs-5">
-              <router-link class="nav-link link text-secondary display-4 fs-5" to="/boeketten"
-                >Boeketten</router-link
-              >
-            </li>
-            <li class="mbr-text item-wrap fs-5">
-              <router-link class="nav-link link text-secondary display-4 fs-5" to="/contact"
-                >Contact</router-link
-              >
+              <router-link class="footer-btn-pill text-secondary display-4 fs-5" to="/contact">Contact</router-link>
             </li>
           </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
-          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-6">
             <strong>Links</strong>
           </h5>
           <ul class="list mbr-fonts-style display-7">
             <li class="mbr-text item-wrap fs-5">
-              <router-link class="nav-link link text-secondary display-4 fs-5" to="/"
-                >Facebook</router-link
-              >
+              <router-link class="footer-btn-pill text-secondary display-4 fs-5" to="/">Facebook</router-link>
             </li>
             <li class="mbr-text item-wrap fs-5">
-              <router-link class="nav-link link text-secondary display-4 fs-5" to="/"
-                >Instagram</router-link
-              >
+              <router-link class="footer-btn-pill text-secondary display-4 fs-5" to="/">Instagram</router-link>
             </li>
           </ul>
         </div>
         <div class="col-12 col-md-6 col-lg-3">
-          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-5">
+          <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-6">
             <strong>Contact</strong>
           </h5>
           <ul class="list mbr-fonts-style display-7 fs-5">
-            <p><a href="mailto:naam@email.com" class="text-secondary">naam@email.com</a></p>
             <p>
-              <a href="tel:+320476038971" class="text-secondary text-primary fs-5"
-                >+32 0476 03 89 71</a
-              >
+              <a href="mailto:naam@email.com" class="footer-btn-pill text-secondary">naam@email.com</a>
+            </p>
+            <p>
+              <a href="tel:+320476038971" class="footer-btn-pill text-secondary text-primary fs-5">+32 0476 03 89 71</a>
             </p>
           </ul>
         </div>
@@ -85,8 +70,33 @@ const jaar = ref(new Date().getFullYear())
 </template>
 
 <style scoped>
-/* Optioneel: zorg dat copyright altijd onderaan zichtbaar blijft */
+/* Footer basis padding */
 .footer1 {
   padding-bottom: 20px;
+}
+
+/* Footer pill buttons */
+.footer-btn-pill {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.footer-btn-pill:hover {
+  background-color: #e0e0e0;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.footer-btn-pill:active {
+  transform: translateY(0);
+  box-shadow: none;
 }
 </style>

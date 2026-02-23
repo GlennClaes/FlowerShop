@@ -44,7 +44,7 @@ const closeMenu = () => {
           <ul class="navbar-nav nav-dropdown nav-right">
             <li class="nav-item">
               <router-link
-                class="nav-link link text-secondary display-4 fs-5"
+                class="menu-btn-pill text-secondary display-4 fs-5"
                 to="/home"
                 @click="closeMenu"
               >
@@ -53,7 +53,7 @@ const closeMenu = () => {
             </li>
             <li class="nav-item">
               <router-link
-                class="nav-link link text-secondary display-4 fs-5"
+                class="menu-btn-pill text-secondary display-4 fs-5"
                 to="/bloemen"
                 @click="closeMenu"
               >
@@ -62,16 +62,7 @@ const closeMenu = () => {
             </li>
             <li class="nav-item">
               <router-link
-                class="nav-link link text-secondary display-4 fs-5"
-                to="/boeketten"
-                @click="closeMenu"
-              >
-                Boeketten
-              </router-link>
-            </li>
-            <li class="nav-item">
-              <router-link
-                class="nav-link link text-secondary display-4 fs-5"
+                class="menu-btn-pill text-secondary display-4 fs-5"
                 to="/contact"
                 @click="closeMenu"
               >
@@ -97,7 +88,7 @@ const closeMenu = () => {
   justify-content: space-between;
   width: 30px;
   height: 22px;
-  z-index: 1001; /* Zorg dat hij boven het menu blijft */
+  z-index: 1001;
 }
 
 .hamburger .line {
@@ -123,13 +114,11 @@ const closeMenu = () => {
 /* Mobiele weergave van de lijst */
 @media (max-width: 991px) {
   .navbar-collapse {
-    display: none; /* Standaard verbergen */
+    display: none;
     width: 100%;
-    background-color: white; /* Of je gewenste kleur */
+    background-color: white;
     padding: 1rem 0;
   }
-
-  /* De 'show' class dwingt het menu te tonen */
   .navbar-collapse.show {
     display: block !important;
   }
@@ -144,4 +133,31 @@ const closeMenu = () => {
     display: flex !important;
   }
 }
+
+/* Navbar pill buttons */
+.menu-btn-pill {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: #f8f9fa; /* lichte navbar kleur */
+  color: #343a40;
+  margin: 0.25rem 0;
+}
+
+.menu-btn-pill:hover {
+  background-color: #e2e6ea;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.menu-btn-pill:active {
+  transform: translateY(0);
+  box-shadow: none;
+}
+
 </style>

@@ -3,14 +3,12 @@ import { ref } from 'vue'
 
 const name = ref('')
 const message = ref('')
-const phone = '+320471743677' // het nummer waar het bericht heen gaat
+const email = 'naam@email.com' // ontvanger
 
-const whatsappLink = ref('')
-
-function sendMessage() {
-  const text = encodeURIComponent(`Hallo, mijn naam is ${name.value}. ${message.value}`)
-  whatsappLink.value = `https://wa.me/${phone.replace(/\D/g, '')}?text=${text}`
-  window.open(whatsappLink.value, '_blank') // opent WhatsApp
+function sendEmail() {
+  const subject = encodeURIComponent(`Nieuw bericht van ${name.value}`)
+  const body = encodeURIComponent(`Naam: ${name.value}\n\nBericht:\n${message.value}`)
+  window.location.href = `mailto:${email}?subject=${subject}&body=${body}`
 }
 </script>
 
@@ -27,8 +25,9 @@ function sendMessage() {
           </div>
         </div>
       </div>
-
       <div class="row justify-content-center">
+
+        <!-- Contact info kaart -->
         <div class="card col-12 col-md-12 col-lg-6">
           <div class="card-wrapper">
             <div class="text-wrapper">
@@ -38,68 +37,120 @@ function sendMessage() {
               <ul class="list mbr-fonts-style display-7">
                 <li class="mbr-text item-wrap">
                   Telefoon:
-                  <a href="tel:+320476038971" class="text-secondary">+32 0476 03 89 71</a>
+                  <a href="tel:+320476038971" class="text-secondary">
+                    +32 0476 03 89 71
+                  </a>
                 </li>
                 <li class="mbr-text item-wrap">
                   WhatsApp:
-                  <a href="https://wa.me/320476038971" class="text-secondary">+32 0476 03 89 71</a>
+                  <a href="https://wa.me/320476038971" class="text-secondary">
+                    +32 0476 03 89 71
+                  </a>
                 </li>
                 <li class="mbr-text item-wrap">
                   Email:
-                  <a href="mailto:naam@email.com" class="text-secondary">naam@email.com</a>
+                  <a href="mailto:naam@email.com" class="text-secondary">
+                    naam@email.com
+                  </a>
                 </li>
-                <li class="mbr-text item-wrap">Adres: 350 5th Ave, New York, NY 10118</li>
               </ul>
             </div>
           </div>
         </div>
 
-        <div class="map-wrapper col-md-12 col-lg-6">
-          <div class="google-map">
-            <iframe
-              frameborder="0"
-              style="border: 0"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d66641.23545938493!2d5.129862966725924!3d50.72829951019849!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c10e3ae5f28eb3%3A0x6c8aeb49a2374525!2sMontenaken%2C%203890%20Gingelom!5e1!3m2!1sen!2sbe!4v1768402293835!5m2!1sen!2sbe"
-              allowfullscreen
-            >
-            </iframe>
+        <!-- Formulier kaart -->
+        <div class="card col-12 col-md-12 col-lg-6">
+          <div class="card-wrapper">
+            <div class="text-wrapper">
+              <h5 class="cardTitle mbr-fonts-style mb-2 display-5">
+                <strong>Stuur ons een bericht</strong>
+              </h5>
+
+              <form @submit.prevent="sendEmail" class="mbr-fonts-style display-7">
+
+                <div class="mbr-text item-wrap mb-3">
+                  <input
+                    type="text"
+                    v-model="name"
+                    placeholder="Naam"
+                    required
+                    class="contact-input"
+                  />
+                </div>
+
+                <div class="mbr-text item-wrap mb-3">
+            <textarea
+              v-model="message"
+              placeholder="Bericht"
+              rows="4"
+              required
+              class="contact-input"
+            ></textarea>
+                </div>
+
+                <div class="mbr-text item-wrap">
+                  <button type="submit" class="email-button">
+                    Verstuur via e-mail
+                  </button>
+                </div>
+
+              </form>
+
+            </div>
           </div>
         </div>
-      </div>
-    </div>
 
+      </div>
+
+
+    </div>
     <input name="animation" type="hidden" />
   </section>
 
-  <!-- WhatsApp formulier onder toevoegen -->
-  <section class="contact-form mt-5">
-    <div class="container">
-      <h3>Stuur ons een bericht via WhatsApp</h3>
-      <form @submit.prevent="sendMessage">
-        <input type="text" v-model="name" placeholder="Naam" required />
-        <textarea v-model="message" placeholder="Bericht" required></textarea>
-        <button type="submit">Verstuur via WhatsApp</button>
-      </form>
-    </div>
-  </section>
 </template>
 
 <style scoped>
-input,
-textarea {
-  display: block;
+.contact-input {
   width: 100%;
-  margin-bottom: 1rem;
-  padding: 0.5rem;
+  padding: 0.75rem 1rem;
+  border-radius: 12px;
+  border: 1px solid #e0e0e0;
+  font-size: inherit;
+  background-color: #fafafa;
+  transition: all 0.2s ease;
+  outline: none;
 }
-button {
-  background-color: #25d366; /* WhatsApp groen */
+
+.contact-input:focus {
+  border-color: #e74c3c;
+  background-color: #ffffff;
+  box-shadow: 0 0 0 3px rgba(231, 76, 60, 0.15);
+}
+
+textarea.contact-input {
+  resize: vertical;
+  min-height: 120px;
+}
+
+.email-button {
+  width: 100%;
+  background: linear-gradient(135deg, #e74c3c, #c0392b);
   color: white;
-  padding: 0.5rem 1rem;
   border: none;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  font-size: inherit;
+  font-weight: 600;
   cursor: pointer;
+  transition: all 0.2s ease;
 }
-.contact-form {
-  margin-top: 2rem;
+
+.email-button:hover {
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.email-button:active {
+  transform: translateY(0);
+  box-shadow: none;
 }
 </style>
