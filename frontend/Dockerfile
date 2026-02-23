@@ -15,7 +15,7 @@ FROM nginx:alpine
 WORKDIR /usr/share/nginx/html
 
 # Kopieer alleen de Nginx-config
-COPY nginx/conf.d/bloemenhoeve.conf /etc/nginx/conf.d/default.conf
+COPY nginx/conf.d/nginx-frontend.conf /etc/nginx/conf.d/default.conf
 
 # Kopieer de build output van de vorige stage
 COPY --from=build /app/dist .
