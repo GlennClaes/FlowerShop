@@ -27,7 +27,7 @@ describe('HeaderComponent', () => {
     const wrapper = mount(HeaderComponent)
     const image = wrapper.find('img')
     expect(image.exists()).toBe(true)
-    expect(image.attributes('alt')).toBe('Mobirise Website Builder')
+    expect(image.attributes('alt')).toBe('Bloemenhoeve')
     expect(image.attributes('src')).toContain('mbr-816x544.webp')
   })
 

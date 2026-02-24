@@ -20,7 +20,7 @@ test.describe('WhyUsComponent E2E', () => {
   test('rendert afbeelding correct', async ({ page }) => {
     const image = page.locator('section.header1 img')
     await expect(image).toBeVisible()
-    await expect(image).toHaveAttribute('alt', 'Mobirise Website Builder')
+    await expect(image).toHaveAttribute('alt', 'Bloemenhoeve')
     await expect(image.getAttribute('src')).resolves.toContain('mbr-816x544.webp')
   })
 
