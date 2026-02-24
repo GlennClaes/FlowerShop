@@ -23,13 +23,13 @@ const jaar = ref(new Date().getFullYear())
           </h5>
           <ul class="list mbr-fonts-style display-7">
             <li class="mbr-text item-wrap fs-5">
-              <router-link class="footer-btn-pill text-secondary display-4 fs-5" to="/home">Home</router-link>
+              <router-link class="footer-btn-pill display-4 fs-5" to="/">Home</router-link>
             </li>
             <li class="mbr-text item-wrap fs-5">
-              <router-link class="footer-btn-pill text-secondary display-4 fs-5" to="/bloemen">Bloemen</router-link>
+              <router-link class="footer-btn-pill display-4 fs-5" to="/bloemen">Bloemen</router-link>
             </li>
             <li class="mbr-text item-wrap fs-5">
-              <router-link class="footer-btn-pill text-secondary display-4 fs-5" to="/contact">Contact</router-link>
+              <router-link class="footer-btn-pill display-4 fs-5" to="/contact">Contact</router-link>
             </li>
           </ul>
         </div>
@@ -39,10 +39,10 @@ const jaar = ref(new Date().getFullYear())
           </h5>
           <ul class="list mbr-fonts-style display-7">
             <li class="mbr-text item-wrap fs-5">
-              <router-link class="footer-btn-pill text-secondary display-4 fs-5" to="/">Facebook</router-link>
+              <router-link class="footer-btn-pill display-4 fs-5" to="/">Facebook</router-link>
             </li>
             <li class="mbr-text item-wrap fs-5">
-              <router-link class="footer-btn-pill text-secondary display-4 fs-5" to="/">Instagram</router-link>
+              <router-link class="footer-btn-pill display-4 fs-5" to="/">Instagram</router-link>
             </li>
           </ul>
         </div>
@@ -52,10 +52,10 @@ const jaar = ref(new Date().getFullYear())
           </h5>
           <ul class="list mbr-fonts-style display-7 fs-5">
             <p>
-              <a href="mailto:naam@email.com" class="footer-btn-pill text-secondary">naam@email.com</a>
+              <a href="mailto:naam@email.com" class="footer-btn-pill ">naam@email.com</a>
             </p>
             <p>
-              <a href="tel:+320476038971" class="footer-btn-pill text-secondary text-primary fs-5">+32 0476 03 89 71</a>
+              <a href="tel:+320476038971" class="footer-btn-pill fs-5">+32 0476 03 89 71</a>
             </p>
           </ul>
         </div>
@@ -73,6 +73,10 @@ const jaar = ref(new Date().getFullYear())
 /* Footer basis padding */
 .footer1 {
   padding-bottom: 20px;
+
+}
+.footer1 .list li {
+  margin-bottom: 1rem; /* past de verticale ruimte aan tussen de items */
 }
 
 /* Footer pill buttons */
@@ -87,16 +91,19 @@ const jaar = ref(new Date().getFullYear())
   cursor: pointer;
   transition: all 0.2s ease;
   background-color: #f0f0f0;
-  color: #333;
+  color: #6c757d;
+
 }
 
 .footer-btn-pill:hover {
   background-color: #e0e0e0;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  color: #343a40;
 }
 
 .footer-btn-pill:active {
   transform: translateY(0);
   box-shadow: none;
+  color: #343a40;
 }
 </style>

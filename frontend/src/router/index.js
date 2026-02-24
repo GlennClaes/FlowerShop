@@ -6,8 +6,8 @@ import FlowersView from '@/pages/Flowers/FlowersView.vue'
 import TypeView from '@/pages/Flowers/Types/TypeView.vue'
 
 const routes = [
-  { path: '/', redirect: '/home' },
-  { path: '/home', name: 'Home', component: HomeView },
+
+  { path: '/', name: 'Home', component: HomeView },
   { path: '/contact', name: 'Contact', component: ContactView },
   { path: '/bloemen', name: 'Bloemen', component: FlowersView },
   {

@@ -54,4 +54,49 @@
   transform: translateY(0);
   box-shadow: none;
 }
+.header1 {
+  min-height: 100vh; /* minimaal schermhoogte, maar groeit bij grotere content */
+  display: flex;
+  align-items: center; /* verticale centrering */
+
+}
+
+.image-wrapper {
+  height: 100%;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* afbeelding vult container zonder vervormen */
+}
+
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* verticaal centreren */
+  height: 100%;
+}
+
+/* Mobiel en tablet optimalisatie */
+@media (max-width: 768px) {
+  .header1 {
+    align-items: flex-start; /* start van scherm, zodat content niet wordt afgesneden */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .text-wrapper {
+    justify-content: flex-start; /* knop blijft zichtbaar */
+    text-align: center;
+    padding: 0 1rem;
+  }
+  .image-wrapper {
+    height: auto; /* afbeelding schaalt proportioneel */
+    margin-bottom: 1rem;
+  }
+  .image-wrapper img {
+    height: auto; /* afbeelding schaalt met breedte */
+  }
+}
+
 </style>

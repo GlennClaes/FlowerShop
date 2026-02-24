@@ -20,7 +20,7 @@ const closeMenu = () => {
           <span class="navbar-logo">
             <router-link to="/">
               <img
-                src="/assets/images/wf-logo-web-symbol-colour201201-128x128.webp"
+                src="/favicon.ico"
                 alt="Logo"
                 style="height: 4rem"
               />
@@ -41,11 +41,11 @@ const closeMenu = () => {
         </button>
 
         <div class="collapse navbar-collapse" :class="{ show: isActive }">
-          <ul class="navbar-nav nav-dropdown nav-right">
+          <ul class="navbar-nav nav-dropdown">
             <li class="nav-item">
               <router-link
-                class="menu-btn-pill text-secondary display-4 fs-5"
-                to="/home"
+                class="menu-button display-4 fs-5"
+                to="/"
                 @click="closeMenu"
               >
                 Home
@@ -53,7 +53,7 @@ const closeMenu = () => {
             </li>
             <li class="nav-item">
               <router-link
-                class="menu-btn-pill text-secondary display-4 fs-5"
+                class="menu-button display-4 fs-5"
                 to="/bloemen"
                 @click="closeMenu"
               >
@@ -62,7 +62,7 @@ const closeMenu = () => {
             </li>
             <li class="nav-item">
               <router-link
-                class="menu-btn-pill text-secondary display-4 fs-5"
+                class="menu-button display-4 fs-5"
                 to="/contact"
                 @click="closeMenu"
               >
@@ -77,7 +77,7 @@ const closeMenu = () => {
 </template>
 
 <style scoped>
-/* Hamburger styling */
+/* --- JE ORIGINELE STYLING (BEHOUDEN) --- */
 .hamburger {
   border: none;
   background: transparent;
@@ -100,18 +100,63 @@ const closeMenu = () => {
   background-color: var(--bs-secondary);
 }
 
-/* Animatie naar Kruisje */
-.hamburger.is-active .line:nth-child(1) {
-  transform: translateY(9.5px) rotate(45deg);
-}
-.hamburger.is-active .line:nth-child(2) {
-  opacity: 0;
-}
-.hamburger.is-active .line:nth-child(3) {
-  transform: translateY(-9.5px) rotate(-45deg);
+.hamburger.is-active .line:nth-child(1) { transform: translateY(9.5px) rotate(45deg); }
+.hamburger.is-active .line:nth-child(2) { opacity: 0; }
+.hamburger.is-active .line:nth-child(3) { transform: translateY(-9.5px) rotate(-45deg); }
+
+.menu-button {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background-color: #f8f9fa;
+  color: #6c757d;
+  margin: 0.25rem 0;
 }
 
-/* Mobiele weergave van de lijst */
+.menu-button:hover {
+  background-color: #e2e6ea;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+  color: #343a40;
+}
+
+/* --- DE EXTREEM GERICTE FIX --- */
+
+/* Zorg dat de container relatief is voor de absolute centrering op desktop */
+.navbar-container {
+  display: flex !important;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+
+/* Desktop centrering zonder de flow te breken */
+@media (min-width: 992px) {
+  .navbar-collapse {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex !important;
+    justify-content: center;
+    width: auto;
+    z-index: 1000;
+  }
+
+  .navbar-nav {
+    display: flex !important;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+}
+
+/* Mobiel: centreren zoals het was */
 @media (max-width: 991px) {
   .navbar-collapse {
     display: none;
@@ -122,42 +167,13 @@ const closeMenu = () => {
   .navbar-collapse.show {
     display: block !important;
   }
-}
-
-/* Desktop weergave */
-@media (min-width: 992px) {
-  .hamburger {
-    display: none !important;
-  }
-  .navbar-collapse {
+  .navbar-nav {
     display: flex !important;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    list-style: none;
+    padding: 0;
   }
 }
-
-/* Navbar pill buttons */
-.menu-btn-pill {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 999px;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  background-color: #f8f9fa; /* lichte navbar kleur */
-  color: #343a40;
-  margin: 0.25rem 0;
-}
-
-.menu-btn-pill:hover {
-  background-color: #e2e6ea;
-  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-}
-
-.menu-btn-pill:active {
-  transform: translateY(0);
-  box-shadow: none;
-}
-
 </style>
