@@ -12,7 +12,6 @@ const categories = [...new Set(flowersStore.flowers.map((f) => f.category))]
   <section
     v-for="(category, catIndex) in categories"
     :key="catIndex"
-    data-bs-version="5.1"
     class="pricing02 cid-v8hqljKCPM"
     :id="`pricing02-${catIndex}`"
   >

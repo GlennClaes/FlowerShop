@@ -6,7 +6,7 @@ const jaar = ref(new Date().getFullYear())
 </script>
 
 <template>
-  <section data-bs-version="5.1" class="footer1 cid-v8hhn5O7xW" once="footers" id="footer01-1j">
+  <section class="footer1 cid-v8hhn5O7xW" once="footers" id="footer01-1j">
     <div class="container">
       <div class="row mbr-white">
         <div class="col-12 col-md-6 col-lg-3">

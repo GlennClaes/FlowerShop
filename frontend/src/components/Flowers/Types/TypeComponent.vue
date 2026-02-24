@@ -15,7 +15,7 @@ const filteredFlowers = computed(() => flowersStore.getByCategory(props.category
 </script>
 
 <template>
-  <section data-bs-version="5.1" class="pricing02 cid-v8hEGHMdeN" :id="`pricing02-${category}`">
+  <section class="pricing02 cid-v8hEGHMdeN" :id="`pricing02-${category}`">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 content-head">

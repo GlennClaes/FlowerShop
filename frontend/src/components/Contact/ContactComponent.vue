@@ -14,7 +14,7 @@ function sendEmail() {
 
 <template>
   <!-- Bestaande contactsectie blijft hetzelfde -->
-  <section data-bs-version="5.1" class="contacts02 map1 cid-v8hXVTYBwK" id="contacts02-2i">
+  <section class="contacts02 map1 cid-v8hXVTYBwK" id="contacts02-2i">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 content-head">

@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <section data-bs-version="5.1" class="header1 cid-tJS9vXDdRK" id="header01-7">
+  <section class="header1 cid-tJS9vXDdRK" id="header01-7">
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 col-md-12 col-lg-4 image-wrapper">
