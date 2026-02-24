@@ -9,7 +9,7 @@
           <img
             class="w-100"
             src="../../../public/assets/images/mbr-816x544.webp"
-            alt="Mobirise Website Builder"
+            alt="Bloemenhoeve"
           />
         </div>
         <div class="col-12 col-lg col-md-12">
