@@ -28,7 +28,7 @@ function sendEmail() {
       <div class="row justify-content-center">
 
         <!-- Contact info kaart -->
-        <div class="card col-12 col-md-12 col-lg-6">
+        <div class="card border-0 col-12 col-md-12 col-lg-6 mb-4">
           <div class="card-wrapper">
             <div class="text-wrapper">
               <h5 class="cardTitle mbr-fonts-style mb-2 display-5">
@@ -59,7 +59,7 @@ function sendEmail() {
         </div>
 
         <!-- Formulier kaart -->
-        <div class="card col-12 col-md-12 col-lg-6">
+        <div class="card border-0 col-12 col-md-12 col-lg-6 mb-4">
           <div class="card-wrapper">
             <div class="text-wrapper">
               <h5 class="cardTitle mbr-fonts-style mb-2 display-5">
@@ -110,6 +110,7 @@ function sendEmail() {
 </template>
 
 <style scoped>
+
 .contact-input {
   width: 100%;
   padding: 0.75rem 1rem;

@@ -57,7 +57,7 @@ const categories = [...new Set(flowersStore.flowers.map((f) => f.category))]
   <section data-bs-version="5.1" class="article13 cid-v8hrUD8eFY" id="article13-1v">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="card col-md-12 col-lg-10">
+        <div class="card border-0 col-md-12 col-lg-10">
           <div class="card-wrapper">
             <div class="card-box align-left">
               <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
