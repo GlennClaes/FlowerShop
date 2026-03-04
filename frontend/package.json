@@ -63,6 +63,8 @@
     "@vue/runtime-vapor": "beta",
     "@vue/server-renderer": "beta",
     "@vue/shared": "beta",
-    "@vue/compat": "beta"
+    "@vue/compat": "beta",
+
+    "minimatch": "^10.2.3"
   }
 }
