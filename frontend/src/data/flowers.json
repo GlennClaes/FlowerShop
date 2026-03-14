@@ -1,48 +1,210 @@
 [
   {
-    "name": "Tulip Red",
-    "category": "Tulpen",
-    "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-596x335.webp",
-    "price": "€3,99"
+    "name": "Kelli Louise",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/kelli_louise.webp",
+    "price": "€7,00"
   },
   {
-    "name": "Tulip Yellow",
-    "category": "Tulpen",
-    "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-816x459.webp",
-    "price": "€4,50"
+    "name": "Alesca Kathrijn",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/alesca_kathrijn.webp",
+    "price": "€"
   },
   {
-    "name": "Tulip Red",
-    "category": "Tulpen",
-    "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-596x335.webp",
-    "price": "€3,99"
+    "name": "Adamas",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/adamas.webp",
+    "price": "€"
   },
   {
-    "name": "Tulip Yellow",
-    "category": "Tulpen",
-    "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-816x459.webp",
-    "price": "€4,50"
+    "name": "Fulva Flora Plena",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/fulva_flora_plena.webp",
+    "price": "€"
   },
   {
-    "name": "Rose Red",
-    "category": "Rozen",
-    "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-1920x1080.webp",
-    "price": "€5,00"
+    "name": "Emerald Bay",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/emerald_bay.webp",
+    "price": "€"
   },
   {
-    "name": "Rose Pink",
-    "category": "Rozen",
-    "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-1920x1080.webp",
-    "price": "€5,50"
+    "name": "Prince Of Venice",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/prince_of_venice.webp",
+    "price": "€6,00"
   },
   {
-    "name": "Rose Red",
-    "category": "Rozen",
-    "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-1920x1080.webp",
-    "price": "€5,00"
+    "name": "Marrieta Dreamer",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/marrieta_dreamer.webp",
+    "price": "€6,00"
   },
   {
-    "name": "Rose Pink",
+    "name": "Key To My Heart",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/key_to_my_heart.webp",
+    "price": "€8,00"
+  },
+  {
+    "name": "Pacific Shamrock",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/pacific_shamrock.webp",
+    "price": "€8,50"
+  },
+  {
+    "name": "Exotic Treasure",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/exotic_treasure.webp",
+    "price": "€8,00"
+  },
+  {
+    "name": "Strawberry Candy",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/strawberry_candy.webp",
+    "price": "€6,00"
+  },
+  {
+    "name": "Spacecoast Freaky Tiki",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/spacecoast_freaky_tiki.webp",
+    "price": "€7,00"
+  },
+  {
+    "name": "J.T. Davis",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/jt_davis.webp",
+    "price": "€8,00"
+  },
+  {
+    "name": "Voodoo Dancer",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/voodoo_dancer.webp",
+    "price": "€7,00"
+  },
+  {
+    "name": "Rock Solid",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/rock_solid.webp",
+    "price": "€8,00"
+  },
+  {
+    "name": "Veins Of Truth",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/veins_of_truth.webp",
+    "price": "€6,00"
+  },
+  {
+    "name": "Cherry Candy",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/cherry_candy.webp",
+    "price": "€8,00"
+  },
+  {
+    "name": "Chinese New-Year",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/chinese_new_year.webp",
+    "price": "€6,00"
+  },
+  {
+    "name": "Special Ovation",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/special_ovation.webp",
+    "price": "€"
+  },
+  {
+    "name": "Lavender Blue Baby",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/lavender_blue_baby.webp",
+    "price": "€7,00"
+  },
+  {
+    "name": "Sir Francis Drake",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/sir_francis_drake.webp",
+    "price": "€"
+  },
+  {
+    "name": "???",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/flower_unknown.webp",
+    "price": "€"
+  },
+  {
+    "name": "Linda' 's Magic",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/linda_s_magic.webp",
+    "price": "€8,50"
+  },
+  {
+    "name": "Roseate Stained Glass",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/roseate_stained_glass.webp",
+    "price": "€8,50"
+  },
+  {
+    "name": "???",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/flower_unknown_2.webp",
+    "price": "€"
+  },
+  {
+    "name": "Maleny Ballerina",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/maleny_ballerina.webp",
+    "price": "€6,00"
+  },
+  {
+    "name": "SPC Seashells",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/spc_seashells.webp",
+    "price": "€8,50"
+  },
+  {
+    "name": "Venus Fly Trapp",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/venus_fly_trapp.webp",
+    "price": "€6,00"
+  },
+  {
+    "name": "Malleny Harlequin",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/malleny_harlequin.webp",
+    "price": "€6,00"
+  },
+  {
+    "name": "Kurumba",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/kurmba.webp",
+    "price": "€6,00"
+  },
+  {
+    "name": "Persian Ruby",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/persian_ruby.webp",
+    "price": "€8,00"
+  },
+  {
+    "name": "Manhattan Mood",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/manhattan_mood.webp",
+    "price": "€6,00"
+  },
+  {
+    "name": "Inviting Romance",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/inviting_romance.webp",
+    "price": "€8,00"
+  },
+  {
+    "name": "Hello Screamer",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/hello_screamer.webp",
+    "price": "€8,00"
+  },
+  {
+    "name": "Voorbeeld",
     "category": "Rozen",
     "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-1920x1080.webp",
     "price": "€5,50"
