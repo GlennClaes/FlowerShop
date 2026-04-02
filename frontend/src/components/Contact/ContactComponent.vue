@@ -3,7 +3,7 @@ import { ref } from 'vue'
 
 const name = ref('')
 const message = ref('')
-const email = 'naam@email.com' // ontvanger
+const email = 'i-love-working@hotmail.com' // ontvanger
 
 function sendEmail() {
   const subject = encodeURIComponent(`Nieuw bericht van ${name.value}`)
@@ -37,20 +37,20 @@ function sendEmail() {
               <ul class="list mbr-fonts-style display-7">
                 <li class="mbr-text item-wrap">
                   Telefoon:
-                  <a href="tel:+320476038971" class="text-secondary">
-                    +32 0476 03 89 71
+                  <a href="tel:+32476038971" class="text-secondary">
+                    +32 476 03 89 71
                   </a>
                 </li>
                 <li class="mbr-text item-wrap">
                   WhatsApp:
-                  <a href="https://wa.me/320476038971" class="text-secondary">
-                    +32 0476 03 89 71
+                  <a href="https://wa.me/32476038971" class="text-secondary">
+                    +32 476 03 89 71
                   </a>
                 </li>
                 <li class="mbr-text item-wrap">
                   Email:
-                  <a href="mailto:naam@email.com" class="text-secondary">
-                    naam@email.com
+                  <a href="i-love-working@hotmail.com" class="text-secondary">
+                    i-love-working@hotmail.com
                   </a>
                 </li>
               </ul>

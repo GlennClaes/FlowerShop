@@ -5,13 +5,6 @@
   <section class="header1 cid-tJS9vXDdRK" id="header01-7">
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-12 col-md-12 col-lg-4 image-wrapper">
-          <img
-            class="w-100"
-            src="../../../public/assets/images/mbr-816x544.webp"
-            alt="Bloemenhoeve"
-          />
-        </div>
         <div class="col-12 col-lg col-md-12">
           <div class="text-wrapper align-left">
             <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
@@ -55,10 +48,10 @@
   box-shadow: none;
 }
 .header1 {
-  min-height: 100vh; /* minimaal schermhoogte, maar groeit bij grotere content */
+  padding-top: 5rem;
+  padding-bottom: 5rem;
   display: flex;
   align-items: center; /* verticale centrering */
-
 }
 
 .image-wrapper {

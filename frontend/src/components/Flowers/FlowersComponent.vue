@@ -1,10 +1,30 @@
 <script setup>
 import { useFlowersStore } from '@/stores/flowersStore'
+import FlowerTextComponent from './FlowerTextComponent.vue'
 
 const flowersStore = useFlowersStore()
 
 // Haal alle categorieën uit de JSON
 const categories = [...new Set(flowersStore.flowers.map((f) => f.category))]
+
+const categoryDescriptions = {
+  Daglelies: {
+    title: 'Prachtige Daglelies uit eigen tuin',
+    text: 'Onze daglelies worden met zorg gekweekt en elke ochtend vers geplukt. Ze zijn perfect voor wie van kleur en versheid houdt.',
+  },
+  Rozen: {
+    title: 'Romantische Rozen, rechtstreeks geplukt',
+    text: 'Niets overtreft de geur en schoonheid van verse rozen uit eigen kweek. Ontdek onze selectie van de mooiste soorten.',
+  },
+  default: {
+    title: 'Bloemen die écht vers zijn!',
+    text: 'De meeste bloemen in de winkel hebben al een hele reis achter de rug, maar die van ons niet. Wij kweken onze bloemen gewoon zelf in onze eigen tuin. Elke ochtend lopen we de tuin in om de mooiste bloemen met de hand te plukken. <br /><br />Hierdoor zijn ze vers en blijven ze veel langer mee. Het is een eerlijk product van eigen bodem, met liefde voor de natuur grootgebracht. Zo haal je altijd iets bijzonders en gezonds in huis.',
+  },
+}
+
+const getCategoryData = (category) => {
+  return categoryDescriptions[category] || categoryDescriptions['default']
+}
 </script>
 
 <template>
@@ -18,13 +38,18 @@ const categories = [...new Set(flowersStore.flowers.map((f) => f.category))]
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 content-head">
-          <div class="mbr-section-head mb-5">
+          <div class="mbr-section-head mb-4">
             <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
               <strong>{{ category }}</strong>
             </h4>
           </div>
         </div>
       </div>
+
+      <FlowerTextComponent
+        :title="getCategoryData(category).title"
+        :text="getCategoryData(category).text"
+      />
 
       <div class="row">
         <div
@@ -53,33 +78,9 @@ const categories = [...new Set(flowersStore.flowers.map((f) => f.category))]
     </div>
   </section>
 
-  <!-- Bloemen info blijft hetzelfde -->
-  <section data-bs-version="5.1" class="article13 cid-v8hrUD8eFY" id="article13-1v">
-    <div class="container">
-      <div class="row justify-content-center">
-        <div class="card border-0 col-md-12 col-lg-10">
-          <div class="card-wrapper">
-            <div class="card-box align-left">
-              <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
-                <strong>Bloemen die écht vers zijn!</strong>
-              </h1>
-              <p class="mbr-text mbr-fonts-style mb-4 display-7">
-                De meeste bloemen in de winkel hebben al een hele reis achter de rug, maar die van
-                ons niet. Wij kweken onze bloemen gewoon zelf in onze eigen tuin. Elke ochtend lopen
-                we de tuin in om de mooiste bloemen met de hand te plukken. <br /><br />Hierdoor
-                zijn ze vers en blijven ze veel langer mee. Het is een eerlijk product van eigen
-                bodem, met liefde voor de natuur grootgebracht. Zo haal je altijd iets bijzonders en
-                gezonds in huis.
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <input name="animation" type="hidden" />
 </template>
+
 
 <style scoped>
 /* styling blijft exact hetzelfde */
