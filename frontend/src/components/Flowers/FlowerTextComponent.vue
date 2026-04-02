@@ -17,11 +17,11 @@ defineProps({
       <div class="row justify-content-center">
         <div class="card border-0 col-md-12 col-lg-10">
           <div class="card-wrapper">
-            <div class="card-box align-left">
+            <div class="card-box text-center">
               <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
                 <strong>{{ title }}</strong>
               </h1>
-              <p class="mbr-text mbr-fonts-style mb-4 display-7" v-html="text"></p>
+              <p class="mbr-text mbr-fonts-style mb-4 display-7 text-center" v-html="text"></p>
             </div>
           </div>
         </div>
@@ -44,4 +44,4 @@ defineProps({
   margin-bottom: 0rem !important;
 }
 </style>
-
+

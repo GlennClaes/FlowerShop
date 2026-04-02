@@ -10,15 +10,15 @@ const categories = [...new Set(flowersStore.flowers.map((f) => f.category))]
 const categoryDescriptions = {
   Daglelies: {
     title: 'Prachtige Daglelies uit eigen tuin',
-    text: 'Onze daglelies worden met zorg gekweekt en elke ochtend vers geplukt. Ze zijn perfect voor wie van kleur en versheid houdt.',
+    text: 'Onze daglelies worden met zorg gekweekt en elke ochtend vers geplukt. <br> Ze zijn perfect voor wie van kleur en versheid houdt.',
   },
   Rozen: {
     title: 'Romantische Rozen, rechtstreeks geplukt',
-    text: 'Niets overtreft de geur en schoonheid van verse rozen uit eigen kweek. Ontdek onze selectie van de mooiste soorten.',
+    text: 'Niets overtreft de geur en schoonheid van verse rozen uit eigen kweek. <br> Ontdek onze selectie van de mooiste soorten.',
   },
   default: {
     title: 'Bloemen die écht vers zijn!',
-    text: 'De meeste bloemen in de winkel hebben al een hele reis achter de rug, maar die van ons niet. Wij kweken onze bloemen gewoon zelf in onze eigen tuin. Elke ochtend lopen we de tuin in om de mooiste bloemen met de hand te plukken. <br /><br />Hierdoor zijn ze vers en blijven ze veel langer mee. Het is een eerlijk product van eigen bodem, met liefde voor de natuur grootgebracht. Zo haal je altijd iets bijzonders en gezonds in huis.',
+    text: 'De meeste bloemen in de winkel hebben al een hele reis achter de rug, maar die van ons niet. <br> Wij kweken onze bloemen gewoon zelf in onze eigen tuin. Elke ochtend lopen we de tuin in om de mooiste bloemen met de hand te plukken. <br /><br />Hierdoor zijn ze vers en blijven ze veel langer mee. Het is een eerlijk product van eigen bodem, met liefde voor de natuur grootgebracht. Zo haal je altijd iets bijzonders en gezonds in huis.',
   },
 }
 
