@@ -37,14 +37,14 @@ function sendEmail() {
               <ul class="list mbr-fonts-style display-7">
                 <li class="mbr-text item-wrap">
                   Telefoon:
-                  <a href="tel:+32476038971" class="text-secondary">
-                    +32 476 03 89 71
+                  <a href="tel:+32472297205" class="text-secondary">
+                    +32 0472 29 72 05
                   </a>
                 </li>
                 <li class="mbr-text item-wrap">
                   WhatsApp:
-                  <a href="https://wa.me/32476038971" class="text-secondary">
-                    +32 476 03 89 71
+                  <a href="https://wa.me/32472297205" class="text-secondary">
+                    +32 0472 29 72 05
                   </a>
                 </li>
                 <li class="mbr-text item-wrap">

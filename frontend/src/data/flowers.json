@@ -1,212 +1,836 @@
 [
   {
-    "name": "Kelli Louise",
+    "name": "Absolute Treasure",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/kelli_louise.webp",
+    "image": "assets/images/daglelies/absolute-treasure.jpeg",
     "price": "€7,00"
   },
   {
-    "name": "Alesca Kathrijn",
+    "name": "Absolute Zero",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/alesca_kathrijn.webp",
-    "price": "€"
+    "image": "assets/images/daglelies/absolute-zero.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Across the Universe",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/across-the-universe.jpeg",
+    "price": "€9,00"
   },
   {
     "name": "Adamas",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/adamas.webp",
-    "price": "€"
+    "image": "assets/images/daglelies/adamas.jpeg",
+    "price": "€8,00"
   },
   {
-    "name": "Fulva Flora Plena",
+    "name": "Alien Encounter",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/fulva_flora_plena.webp",
-    "price": "€"
+    "image": "assets/images/daglelies/alien-encounter.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Alexa Kathryn",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/alexa-kathryn.jpg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Alpine Ruffles",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/alpine-ruffles.jpeg",
+    "price": "€10,00"
+  },
+  {
+    "name": "Aztec Priestes",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/aztec-priestes.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Bela Lugosi",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/bela-lugosi.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Believes In Miracles",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/believes-in-miracles.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Bermuda Breeze",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/bermuda-breeze.jpg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Beauty Of The King",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/beauty-of-the-king.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Bold Tiger",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/bold-tiger.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Born To Be Wild",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/born-to-be-wild.jpg",
+    "price": "€12,00"
+  },
+  {
+    "name": "Born To Run",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/born-to-run.jpeg",
+    "price": "€10,00"
+  },
+  {
+    "name": "Blueberry Frost",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/blueberry-frost.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Blueberry Cream",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/blueberry-cream.jpg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Blue Mountain",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/blue-mountain.jpeg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Brazilian Exotic",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/brazilian-exotic.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Create Your Dream",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/create-your-dream.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Chinese New-Year",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/chinese-new-year.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Chinese Charriot",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/chinese-charriot.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Chicago Sunrise",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/chicago-sunrise.jpeg",
+    "price": "€6,00"
+  },
+  {
+    "name": "Charmed And Dangerous",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/charmed-and-dangerous.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Captain Blue",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/captain-blue.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Chang Dynasty",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/chang-dynasty.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Cindy's Choice",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/cindys-choice.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Darla Anita",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/darla-anita.jpeg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Dancing With Julie",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/dancing-with-julie.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Desert Moon",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/desert-moon.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Diamond Girl",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/diamond-girl.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Double Bold One",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/double-bold-one.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Eleanor Roosefelt",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/eleanor-roosefelt.jpg",
+    "price": "€8,00"
   },
   {
     "name": "Emerald Bay",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/emerald_bay.webp",
-    "price": "€"
+    "image": "assets/images/daglelies/emerald-bay.jpg",
+    "price": "€8,50"
   },
   {
-    "name": "Prince Of Venice",
+    "name": "Enchanted April",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/prince_of_venice.webp",
-    "price": "€6,00"
+    "image": "assets/images/daglelies/enchanted-april.jpeg",
+    "price": "€7,00"
   },
   {
-    "name": "Marrieta Dreamer",
+    "name": "English Cameo",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/marrieta_dreamer.webp",
-    "price": "€6,00"
+    "image": "assets/images/daglelies/english-cameo.jpg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Exotic Treasure",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/exotic-treasure.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Hello Screamer",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/hello-screamer.jpeg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Fame",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/fame.jpeg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Fashion Police",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/fashion-police.jpeg",
+    "price": "€10,00"
+  },
+  {
+    "name": "Fancy Face",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/fancy-face.jpeg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Fulva Flore Pleno",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/fulva-flore-pleno.jpg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Fine China",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/fine-china.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Grande Masque",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/grande-masque.jpeg",
+    "price": "€10,00"
+  },
+  {
+    "name": "Jamaican Me Crazy",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/jamaican-me-crazy.jpeg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Jamaican Music",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/jamaican-music.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Jane Trimmer",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/jane-trimmer.jpeg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Jedi Georgette",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/jedi-georgette.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Jerri Hyat",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/jerri-hyat.jpg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Jerusalem",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/jerusalem.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "John Peat",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/john-peat.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "J.T. Davis",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/jt-davis.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Just As I Am",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/just-as-i-am.jpg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Jungle Palace",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/jungle-palace.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Inviting Romance",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/inviting-romance.jpeg",
+    "price": "€12,00"
   },
   {
     "name": "Key To My Heart",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/key_to_my_heart.webp",
+    "image": "assets/images/daglelies/key-to-my-heart.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Kelli Louise",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/kelli-louise.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Keep on Hoping",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/keep-on-hoping.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Kurumba",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/kurumba.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Lady Betty Fretz",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/lady-betty-fretz.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Lavendel Blue Baby",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/lavendel-blue-baby.jpg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Lavendel Tutu",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/lavendel-tutu.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Laura Harwood",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/lara-harwood.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Let's Loose",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/lets-loose.jpeg",
+    "price": "€7,50"
+  },
+  {
+    "name": "Lemon Mint",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/lemon-mint.jpeg",
+    "price": "€7,50"
+  },
+  {
+    "name": "Light Motif",
+    "category": "Daglelies",    
+    "image": "assets/images/daglelies/light-motif.jpg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Light Years Away",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/light-years-away.jpg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Linda, S Magic",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/linda-s-magic.jpg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Linda Sierra",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/linda-sierra.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Linda Carols",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/linda-carols.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Liége And Lief",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/liege-and-lief.jpeg",
+    "price": "€7,50"
+  },
+  {
+    "name": "Madeline Macartney",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/madeline-macartney.jpg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Manhattan Mood",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/manhattan-mood.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Maleny Harlequin",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/maleny-harlequin.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Maleny Ballerina",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/maleny-ballerina.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Marietta Dreamer",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/marietta-dreamer.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Masefield Parrish",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/masefield-parrish.jpg",
+    "price": "€10,00"
+  },
+  {
+    "name": "Mean Joe Green",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/mean-joe-green.jpg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Midnight Magic",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/midnight-magic.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Mike Longo",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/mike-longo.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Midsummer Blooming Bouquet",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/midsummer-blooming-bouquet.jpeg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Moonlit Masquerade",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/moonlit-masquerade.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Mysterious Eyes",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/mysterious-eyes.jpeg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Nairobi Night",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/nairobi-night.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Night Embers",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/night-embers.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Orchid Elegance",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/orchid-elegance.jpeg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Open My Eyes",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/open-my-eyes.jpeg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Pattern In Time",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/pattern-in-time.jpg",
     "price": "€8,00"
   },
   {
     "name": "Pacific Shamrock",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/pacific_shamrock.webp",
+    "image": "assets/images/daglelies/pacific-shamrock.jpg",
+    "price": "€10,00"
+  },
+  {
+    "name": "Painting The Roses Red",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/painting-the-roses-red.jpeg",
     "price": "€8,50"
   },
   {
-    "name": "Exotic Treasure",
+    "name": "Paradise Tanager",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/exotic_treasure.webp",
-    "price": "€8,00"
+    "image": "assets/images/daglelies/paradise-tanager.jpeg",
+    "price": "€8,50"
   },
   {
-    "name": "Strawberry Candy",
+    "name": "Pana Mahattie",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/strawberry_candy.webp",
-    "price": "€6,00"
-  },
-  {
-    "name": "Spacecoast Freaky Tiki",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/spacecoast_freaky_tiki.webp",
+    "image": "assets/images/daglelies/pana-mahattie.jpeg",
     "price": "€7,00"
   },
   {
-    "name": "J.T. Davis",
+    "name": "Persian Ruby",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/jt_davis.webp",
+    "image": "assets/images/daglelies/persian-ruby.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Prince Of Venice",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/prince-of-venice.jpg",
     "price": "€8,00"
   },
   {
-    "name": "Voodoo Dancer",
+    "name": "Pirate King",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/voodoo_dancer.webp",
+    "image": "assets/images/daglelies/pirate-king.jpeg",
+    "price": "€12,00"
+  },
+  {
+    "name": "Ponkan's Lucky Charm",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/ponkans-lucky-charm.jpeg",
+    "price": "€12,00"
+  },
+  {
+    "name": "Punxsutawney Phil",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/punxsutawney-phil.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Red Grace",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/red-grace.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Roses In Snow",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/roses-in-snow.jpeg",
     "price": "€7,00"
   },
   {
     "name": "Rock Solid",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/rock_solid.webp",
-    "price": "€8,00"
-  },
-  {
-    "name": "Veins Of Truth",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/veins_of_truth.webp",
-    "price": "€6,00"
-  },
-  {
-    "name": "Cherry Candy",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/cherry_candy.webp",
-    "price": "€8,00"
-  },
-  {
-    "name": "Chinese New-Year",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/chinese_new_year.webp",
-    "price": "€6,00"
-  },
-  {
-    "name": "Special Ovation",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/special_ovation.webp",
-    "price": "€"
-  },
-  {
-    "name": "Lavender Blue Baby",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/lavender_blue_baby.webp",
-    "price": "€7,00"
-  },
-  {
-    "name": "Sir Francis Drake",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/sir_francis_drake.webp",
-    "price": "€"
-  },
-  {
-    "name": "???",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/flower_unknown.webp",
-    "price": "€"
-  },
-  {
-    "name": "Linda' 's Magic",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/linda_s_magic.webp",
+    "image": "assets/images/daglelies/rock-solid.jpg",
     "price": "€8,50"
+  },
+  {
+    "name": "Rock Candy",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/rock-candy.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Roswitha",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/roswitha.jpg",
+    "price": "€8,00"
   },
   {
     "name": "Roseate Stained Glass",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/roseate_stained_glass.webp",
+    "image": "assets/images/daglelies/roseate-stained-glass.jpeg",
+    "price": "€12,00"
+  },
+  {
+    "name": "Siloam Double Classic",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/siloam-double-classic.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Saona Island",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/saona-island.jpg",
+    "price": "€9,50"
+  },
+  {
+    "name": "Spacecoast Dreamcatcher",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/spacecoast-dreamcatcher.jpg",
     "price": "€8,50"
   },
   {
-    "name": "???",
+    "name": "Saucy Lady",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/flower_unknown_2.webp",
-    "price": "€"
+    "image": "assets/images/daglelies/saucy-lady.jpg",
+    "price": "€8,00"
   },
   {
-    "name": "Maleny Ballerina",
+    "name": "Spacecoast Southern Belle",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/maleny_ballerina.webp",
-    "price": "€6,00"
-  },
-  {
-    "name": "SPC Seashells",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/spc_seashells.webp",
+    "image": "assets/images/daglelies/spacecoast-southern-belle.jpeg",
     "price": "€8,50"
+  },
+  {
+    "name": "Special Ovation",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/special-ovation.jpg",
+    "price": "€8,00"
+  },
+  {
+    "name": "Special Candy",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/special-candy.jpeg",
+    "price": "€10,00"
+  },
+  {
+    "name": "S.P.C Seashells",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/spc-seashells.jpg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Small World Starry Night",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/small-world-starry-night.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "S'Mugglers Gold",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/smugglers-gold.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Soft Hearted Mother",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/soft-hearted-mother.jpg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Stone Island",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/stone-island.jpg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Strawberry Candy",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/strawberry-candy.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Spit's Beauty",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/spits-beauty.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Spice Hunter",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/spice-hunter.jpg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Spinefeld",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/spinefeld.jpeg",
+    "price": "€15,00"
+  },
+  {
+    "name": "Summerwhine",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/summerwhine.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Taudy",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/taudy.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Tide Line",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/tide-line.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Tooth",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/tooth.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Unchartered Waters",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/unchartered-waters.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Vatican City",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/vatican-city.jpeg",
+    "price": "€7,00"
   },
   {
     "name": "Venus Fly Trapp",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/venus_fly_trapp.webp",
-    "price": "€6,00"
+    "image": "assets/images/daglelies/venus-fly-trapp.jpeg",
+    "price": "€8,50"
   },
   {
-    "name": "Malleny Harlequin",
+    "name": "Veins Of Truth",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/malleny_harlequin.webp",
-    "price": "€6,00"
+    "image": "assets/images/daglelies/veins-of-truth.jpg",
+    "price": "€7,00"
   },
   {
-    "name": "Kurumba",
+    "name": "Vivacious Spirit",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/kurmba.webp",
-    "price": "€6,00"
+    "image": "assets/images/daglelies/vivacious-spirit.jpeg",
+    "price": "€15,00"
   },
   {
-    "name": "Persian Ruby",
+    "name": "Violet Stained Glass",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/persian_ruby.webp",
+    "image": "assets/images/daglelies/violet-stained-glass.jpg",
+    "price": "€8,50"
+  },
+  {
+    "name": "Visual Intrige",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/visual-intrige.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Voodoo Dancer",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/voodoo-dancer.jpg",
     "price": "€8,00"
   },
   {
-    "name": "Manhattan Mood",
+    "name": "Volcano Explosion",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/manhattan_mood.webp",
-    "price": "€6,00"
+    "image": "assets/images/daglelies/volcano-explosion.jpeg",
+    "price": "€7,00"
   },
   {
-    "name": "Inviting Romance",
+    "name": "We Are Going To See The King",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/inviting_romance.webp",
-    "price": "€8,00"
+    "image": "assets/images/daglelies/we-are-going-to-see-the-king.jpg",
+    "price": "€8,50"
   },
   {
-    "name": "Hello Screamer",
+    "name": "Wineberry Candy",
     "category": "Daglelies",
-    "image": "assets/images/daglelies/hello_screamer.webp",
-    "price": "€8,00"
+    "image": "assets/images/daglelies/wineberry-candy.jpeg",
+    "price": "€7,00"
   },
   {
-    "name": "Voorbeeld",
-    "category": "Rozen",
-    "image": "assets/images/514721937-24017999861152732-1407556588657314751-n-1920x1080.webp",
-    "price": "€5,50"
+    "name": "Wild Horses",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/wild-horses.jpg",
+    "price": "€7,00"
+  },
+  {
+    "name": "White Temptation",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/white-temptation.jpeg",
+    "price": "€7,00"
+  },
+  {
+    "name": "Wonderful Wizard",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/wonderful-wizard.jpeg",
+    "price": "€9,00"
+  },
+  {
+    "name": "Wonder Of It All",
+    "category": "Daglelies",
+    "image": "assets/images/daglelies/wonder-of-it-all.jpeg",
+    "price": "€10,00"
+  },
+  {
+    "name": "Binnenkort",
+    "category": "Irissen",
+    "image": "assets/images/logo.png",
+    "price": "€?"
   }
 ]

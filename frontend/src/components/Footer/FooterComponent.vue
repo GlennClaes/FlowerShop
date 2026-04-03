@@ -48,7 +48,7 @@ const jaar = ref(new Date().getFullYear())
               </a>
             </li>
             <li class="mbr-text item-wrap">
-              <a href="tel:+320476038971" class="footer-btn-pill fs-5">+32 476 03 89 71</a>
+              <a href="tel:+32472297205" class="footer-btn-pill fs-5">+32 0472 29 72 05</a>
             </li>
           </ul>
         </div>
