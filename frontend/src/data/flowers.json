@@ -540,12 +540,6 @@
     "price": "€8,50"
   },
   {
-    "name": "Paradise Tanager",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/paradise-tanager.jpeg",
-    "price": "€8,50"
-  },
-  {
     "name": "Pana Mahattie",
     "category": "Daglelies",
     "image": "assets/images/daglelies/pana-mahattie.jpeg",
@@ -801,12 +795,6 @@
     "name": "Wineberry Candy",
     "category": "Daglelies",
     "image": "assets/images/daglelies/wineberry-candy.jpeg",
-    "price": "€7,00"
-  },
-  {
-    "name": "Wild Horses",
-    "category": "Daglelies",
-    "image": "assets/images/daglelies/wild-horses.jpg",
     "price": "€7,00"
   },
   {
