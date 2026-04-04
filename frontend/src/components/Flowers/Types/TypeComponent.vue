@@ -20,9 +20,9 @@ const filteredFlowers = computed(() => flowersStore.getByCategory(props.category
       <div class="row justify-content-center">
         <div class="col-12 content-head">
           <div class="mbr-section-head mb-5">
-            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
               <strong>{{ category }}</strong>
-            </h4>
+            </h2>
           </div>
         </div>
       </div>
@@ -38,15 +38,19 @@ const filteredFlowers = computed(() => flowersStore.getByCategory(props.category
               <img
                 :src="flower.image"
                 :alt="flower.name"
+                loading="lazy"
+                decoding="async"
+                width="400"
+                height="300"
                 :data-slide-to="index"
                 :data-bs-slide-to="index"
               />
             </div>
             <div class="item-content">
-              <h5 class="item-title mbr-fonts-style display-5">
+              <h3 class="item-title mbr-fonts-style display-5">
                 <strong>{{ flower.name }}</strong>
-              </h5>
-              <h6 class="item-subtitle mbr-fonts-style display-7">{{ flower.price }}</h6>
+              </h3>
+              <p class="item-subtitle mbr-fonts-style display-7">{{ flower.price }}</p>
             </div>
           </div>
         </div>

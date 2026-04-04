@@ -19,9 +19,9 @@ function sendEmail() {
       <div class="row justify-content-center">
         <div class="col-12 content-head">
           <div class="mbr-section-head mb-5">
-            <h3 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
               <strong>Contact</strong>
-            </h3>
+            </h2>
           </div>
         </div>
       </div>
@@ -31,9 +31,9 @@ function sendEmail() {
         <div class="card border-0 col-12 col-md-12 col-lg-6 mb-4">
           <div class="card-wrapper">
             <div class="text-wrapper">
-              <h5 class="cardTitle mbr-fonts-style mb-2 display-5">
+              <h3 class="cardTitle mbr-fonts-style mb-2 display-5">
                 <strong>Contact Us</strong>
-              </h5>
+              </h3>
               <ul class="list mbr-fonts-style display-7">
                 <li class="mbr-text item-wrap">
                   Telefoon:
@@ -49,7 +49,7 @@ function sendEmail() {
                 </li>
                 <li class="mbr-text item-wrap">
                   Email:
-                  <a href="i-love-working@hotmail.com" class="text-secondary">
+                  <a href="mailto:i-love-working@hotmail.com" class="text-secondary">
                     i-love-working@hotmail.com
                   </a>
                 </li>
@@ -62,9 +62,9 @@ function sendEmail() {
         <div class="card border-0 col-12 col-md-12 col-lg-6 mb-4">
           <div class="card-wrapper">
             <div class="text-wrapper">
-              <h5 class="cardTitle mbr-fonts-style mb-2 display-5">
+              <h3 class="cardTitle mbr-fonts-style mb-2 display-5">
                 <strong>Stuur ons een bericht</strong>
-              </h5>
+              </h3>
 
               <form @submit.prevent="sendEmail" class="mbr-fonts-style display-7">
 
@@ -73,19 +73,21 @@ function sendEmail() {
                     type="text"
                     v-model="name"
                     placeholder="Naam"
+                    aria-label="Naam"
                     required
                     class="contact-input"
                   />
                 </div>
 
                 <div class="mbr-text item-wrap mb-3">
-            <textarea
-              v-model="message"
-              placeholder="Bericht"
-              rows="4"
-              required
-              class="contact-input"
-            ></textarea>
+                  <textarea
+                    v-model="message"
+                    placeholder="Bericht"
+                    aria-label="Bericht"
+                    rows="4"
+                    required
+                    class="contact-input"
+                  ></textarea>
                 </div>
 
                 <div class="mbr-text item-wrap">

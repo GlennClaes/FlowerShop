@@ -35,14 +35,24 @@
     <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any">
 
     <!-- CSS Styles -->
-    <link rel="stylesheet" href="/assets/web/assets/icons2.css">
-    <link rel="stylesheet" href="/assets/web/assets/icons-bold.css">
-    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
-    <link rel="stylesheet" href="/assets/animatecss/animate.css">
-    <link rel="stylesheet" href="/assets/dropdown/css/style.css">
-    <link rel="stylesheet" href="/assets/socicon/css/styles.css">
+    <!-- Kritieke CSS: alleen theme style (nodig voor initiële layout) -->
     <link rel="stylesheet" href="/assets/theme/css/style.css">
-    <link rel="stylesheet" href="/assets/global.css">
+
+    <!-- Niet-kritieke CSS: uitgesteld laden -->
+    <link rel="preload" href="/assets/web/assets/icons2.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/assets/web/assets/icons-bold.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/assets/animatecss/animate.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/assets/dropdown/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/assets/socicon/css/styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <link rel="preload" href="/assets/global.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript>
+        <link rel="stylesheet" href="/assets/web/assets/icons2.css">
+        <link rel="stylesheet" href="/assets/web/assets/icons-bold.css">
+        <link rel="stylesheet" href="/assets/animatecss/animate.css">
+        <link rel="stylesheet" href="/assets/dropdown/css/style.css">
+        <link rel="stylesheet" href="/assets/socicon/css/styles.css">
+        <link rel="stylesheet" href="/assets/global.css">
+    </noscript>
 
     <!-- Fonts -->
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -55,10 +65,9 @@
 
 <div id="app"></div>
 
-<!-- Scripts -->
-<script src="/assets/bootstrap/js/bootstrap.bundle.min.js"></script>
-<script src="/assets/dropdown/js/navbar-dropdown.js"></script>
-<script src="/assets/smoothscroll/smooth-scroll.js"></script>
+<!-- Scripts: defer voor niet-blokkerende uitvoering -->
+<script src="/assets/dropdown/js/navbar-dropdown.js" defer></script>
+<script src="/assets/smoothscroll/smooth-scroll.js" defer></script>
 <script type="module" src="/src/main.js"></script>
 
 </body>

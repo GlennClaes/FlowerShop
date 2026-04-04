@@ -39,9 +39,9 @@ const getCategoryData = (category) => {
       <div class="row justify-content-center">
         <div class="col-12 content-head">
           <div class="mbr-section-head mb-4">
-            <h4 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
               <strong>{{ category }}</strong>
-            </h4>
+            </h2>
           </div>
         </div>
       </div>
@@ -62,15 +62,18 @@ const getCategoryData = (category) => {
               <img
                 :src="flower.image"
                 :alt="flower.name"
+                width="400"
+                height="300"
+                loading="lazy"
                 :data-slide-to="index"
                 :data-bs-slide-to="index"
               />
             </div>
             <div class="item-content">
-              <h5 class="item-title mbr-fonts-style display-5 fs-4">
+              <h3 class="item-title mbr-fonts-style display-5 fs-4">
                 <strong>{{ flower.name }}</strong>
-              </h5>
-              <h6 class="item-subtitle mbr-fonts-style display-7 fs-5">{{ flower.price }}</h6>
+              </h3>
+              <p class="item-subtitle mbr-fonts-style display-7 fs-5">{{ flower.price }}</p>
             </div>
           </div>
         </div>

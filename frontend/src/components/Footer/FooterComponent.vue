@@ -26,14 +26,14 @@ const jaar = ref(new Date().getFullYear())
         </div>
         <div class="col">
           <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-6">
-            <strong>Links</strong>
+            <strong>Sociale media</strong>
           </h5>
           <ul class="list mbr-fonts-style display-7">
             <li class="mbr-text item-wrap">
-              <router-link class="footer-btn-pill fs-5" to="/">Facebook</router-link>
+              <a class="footer-btn-pill fs-5" href="https://facebook.com" target="_blank" rel="noopener noreferrer">Facebook</a>
             </li>
             <li class="mbr-text item-wrap">
-              <router-link class="footer-btn-pill fs-5" to="/">Instagram</router-link>
+              <a class="footer-btn-pill fs-5" href="https://instagram.com" target="_blank" rel="noopener noreferrer">Instagram</a>
             </li>
           </ul>
         </div>
@@ -81,7 +81,7 @@ const jaar = ref(new Date().getFullYear())
   cursor: pointer;
   transition: all 0.2s ease;
   background-color: #f0f0f0;
-  color: #6c757d;
+  color: #495057; /* Verbeterd contrast voor toegankelijkheid */
   white-space: normal;
   word-break: break-word;
   max-width: 100%;
@@ -90,13 +90,13 @@ const jaar = ref(new Date().getFullYear())
 .footer-btn-pill:hover {
   background-color: #e0e0e0;
   box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
-  color: #343a40;
+  color: #212529; /* Donkerder bij hover */
 }
 
 .footer-btn-pill:active {
   transform: translateY(0);
   box-shadow: none;
-  color: #343a40;
+  color: #212529;
 }
 
 .list .item-wrap {

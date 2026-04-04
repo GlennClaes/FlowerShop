@@ -22,6 +22,8 @@ const closeMenu = () => {
               <img
                 src="/favicon.ico"
                 alt="Logo"
+                width="64"
+                height="64"
                 style="height: 4rem"
               />
             </router-link>

@@ -12,7 +12,9 @@ import FooterComponent from '@/components/Footer/FooterComponent.vue'
   <NavbarComponent data-test="navbar" />
 
   <!-- RouterView -->
-  <RouterView data-test="router-view" />
+  <main>
+    <RouterView data-test="router-view" />
+  </main>
 
   <!-- FooterComponent -->
   <FooterComponent data-test="footer" />
