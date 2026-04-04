@@ -1,3 +1,4 @@
+
 <script setup>
 import { ref, onMounted, onUnmounted } from 'vue'
 
@@ -43,8 +44,6 @@ onUnmounted(() => {
   >
     <nav
       class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg"
-      data-aos="fade-down"
-      data-aos-duration="1000"
     >
       <div class="container">
         <div class="navbar-brand">
@@ -75,7 +74,7 @@ onUnmounted(() => {
 
         <div class="collapse navbar-collapse" :class="{ show: isActive }">
           <ul class="navbar-nav nav-dropdown">
-            <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
+            <li class="nav-item">
               <router-link
                 class="menu-button display-4 fs-5"
                 to="/"
@@ -84,7 +83,7 @@ onUnmounted(() => {
                 Home
               </router-link>
             </li>
-            <li class="nav-item" data-aos="fade-down" data-aos-delay="300">
+            <li class="nav-item">
               <router-link
                 class="menu-button display-4 fs-5"
                 to="/bloemen"
@@ -93,7 +92,7 @@ onUnmounted(() => {
                 Bloemen
               </router-link>
             </li>
-            <li class="nav-item" data-aos="fade-down" data-aos-delay="400">
+            <li class="nav-item">
               <router-link
                 class="menu-button display-4 fs-5"
                 to="/contact"

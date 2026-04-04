@@ -784,10 +784,18 @@ a {
   outline-offset: 2px !important;
   transition: outline 0.2s ease-in-out;
 }
+html {
+  scroll-behavior: smooth !important;
+}
+
+[data-aos] {
+  will-change: transform, opacity;
+}
+
 .cid-v8huDRGTAU {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-  background-color: #f0f2f4;
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  background-color: transparent !important;
 }
 .cid-v8huDRGTAU .mbr-fallback-image.disabled {
   display: none;
