@@ -45,7 +45,7 @@ onUnmounted(() => {
     <nav
       class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg"
     >
-      <div class="container">
+      <div class="container navbar-container">
         <div class="navbar-brand">
           <span class="navbar-logo">
             <router-link to="/">
@@ -162,9 +162,20 @@ onUnmounted(() => {
 /* Zorg dat de container relatief is voor de absolute centrering op desktop */
 .navbar-container {
   display: flex !important;
+  flex-direction: row !important;
   align-items: center;
   justify-content: space-between;
   position: relative;
+}
+
+.navbar-brand {
+  order: -1 !important;
+  margin-right: auto !important;
+}
+
+.hamburger {
+  order: 10 !important;
+  margin-left: auto !important;
 }
 
 /* Desktop centrering zonder de flow te breken */
