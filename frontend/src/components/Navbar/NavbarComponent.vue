@@ -14,21 +14,29 @@ const closeMenu = () => {
   isActive.value = false
 }
 
+let ticking = false
+
 const handleScroll = () => {
-  const st = window.pageYOffset || document.documentElement.scrollTop
-  if (st > lastScrollTop.value && st > 100) {
-    // Scroll omlaag: verberg navbar
-    isHidden.value = true
-    isActive.value = false // sluit mobiel menu ook bij scroll
-  } else {
-    // Scroll omhoog of helemaal bovenaan: toon navbar
-    isHidden.value = false
+  if (!ticking) {
+    window.requestAnimationFrame(() => {
+      const st = window.pageYOffset || document.documentElement.scrollTop
+      if (st > lastScrollTop.value && st > 100) {
+        // Scroll omlaag: verberg navbar
+        isHidden.value = true
+        isActive.value = false
+      } else {
+        // Scroll omhoog of helemaal bovenaan: toon navbar
+        isHidden.value = false
+      }
+      lastScrollTop.value = st <= 0 ? 0 : st
+      ticking = false
+    })
+    ticking = true
   }
-  lastScrollTop.value = st <= 0 ? 0 : st
 }
 
 onMounted(() => {
-  window.addEventListener('scroll', handleScroll)
+  window.addEventListener('scroll', handleScroll, { passive: true })
 })
 
 onUnmounted(() => {
@@ -55,6 +63,7 @@ onUnmounted(() => {
                 width="64"
                 height="64"
                 style="height: 4rem"
+                fetchpriority="high"
               />
             </router-link>
           </span>

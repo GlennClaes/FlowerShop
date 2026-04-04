@@ -38,8 +38,8 @@
     <link rel="preload" as="image" href="/assets/images/daglelies/absolute-treasure.jpeg" fetchpriority="high">
 
     <!-- CSS Styles -->
-    <!-- Kritieke CSS: alleen theme style (nodig voor initiële layout) -->
-    <link rel="stylesheet" href="/assets/theme/css/style.css">
+    <link rel="preload" href="/assets/theme/css/style.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="/assets/theme/css/style.css"></noscript>
 
     <!-- Resource Hints -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -51,12 +51,16 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900&display=swap">
     </noscript>
 
-    <!-- Critical CSS for Header & Navbar -->
+    <!-- Critical CSS for Instant First Paint -->
     <style>
+      :root { --bs-primary: #e74c3c; --bs-secondary: #c0392b; }
+      body { margin: 0; padding: 0; font-family: 'Inter Tight', sans-serif; overflow-x: hidden; }
       .navbar { background: #fff!important; height: 80px; position: fixed; top: 0; width: 100%; z-index: 1001; box-shadow: 0 2px 10px rgba(0,0,0,0.05); }
+      #app { padding-top: 80px; min-height: 100vh; }
       .cid-v8huDRGTAU { display: none !important; }
-      #app { padding-top: 80px; }
       @media (max-width: 991px) { .navbar { height: auto; } }
+      .container { width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; max-width: 1140px; }
+      h1, .display-1, .display-2 { color: #232323; margin-top: 0; }
     </style>
 
 </head>
