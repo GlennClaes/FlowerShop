@@ -42,7 +42,8 @@ const getCategoryData = (category) => {
             <component
               :is="catIndex === 0 ? 'h1' : 'h2'"
               class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"
-              :data-aos="catIndex === 0 ? null : 'fade-right'"
+              data-aos="fade-right"
+              :data-aos-delay="catIndex === 0 ? 0 : 200"
             >
               <strong>{{ category }}</strong>
             </component>
@@ -53,8 +54,8 @@ const getCategoryData = (category) => {
       <FlowerTextComponent
         :title="getCategoryData(category).title"
         :text="getCategoryData(category).text"
-        :data-aos="catIndex === 0 ? null : 'fade-up'"
-        data-aos-delay="200"
+        data-aos="fade-up"
+        :data-aos-delay="catIndex === 0 ? 0 : 200"
       />
 
         <div class="row g-3">
@@ -62,8 +63,8 @@ const getCategoryData = (category) => {
             v-for="(flower, index) in flowersStore.getByCategory(category)"
             :key="index"
             class="item features-image col-12 col-md-6 col-lg-3"
-            :data-aos="catIndex === 0 && index < 4 ? null : 'fade-up'"
-            :data-aos-delay="index % 4 * 50"
+            data-aos="fade-up"
+            :data-aos-delay="catIndex === 0 && index < 4 ? 0 : index % 4 * 100"
           >
           <div class="item-wrapper">
             <div class="item-img">

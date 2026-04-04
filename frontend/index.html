@@ -34,6 +34,11 @@
     <!-- Favicon -->
     <link rel="icon" href="/favicon.ico" type="image/x-icon" sizes="any">
 
+    <!-- Extreme LCP Preload: First Category Image -->
+    <link rel="preload" as="image" href="/assets/images/daglelies/absolute-treasure.jpeg" fetchpriority="high">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <!-- Critical Preload: First Flower Image (LCP Candidate) -->
     <link rel="preload" as="image" href="/assets/images/daglelies/absolute-treasure.jpeg" fetchpriority="high">
 
@@ -57,9 +62,7 @@
         <link rel="stylesheet" href="/assets/global.css">
     </noscript>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Fonts (Background Load) -->
     <link rel="preload" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter+Tight:100,200,300,400,500,600,700,800,900&display=swap">

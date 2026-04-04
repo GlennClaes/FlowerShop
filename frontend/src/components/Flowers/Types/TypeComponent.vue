@@ -20,7 +20,7 @@ const filteredFlowers = computed(() => flowersStore.getByCategory(props.category
       <div class="row justify-content-center">
         <div class="col-12 content-head">
           <div class="mbr-section-head mb-5">
-            <h1 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2" data-aos="fade-right">
+            <h1 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2" data-aos="fade-right" data-aos-delay="0">
               <strong>{{ category }}</strong>
             </h1>
           </div>
@@ -33,7 +33,7 @@ const filteredFlowers = computed(() => flowersStore.getByCategory(props.category
           :key="index"
           class="item features-image col-12 col-md-6 col-lg-3"
           data-aos="fade-up"
-          :data-aos-delay="index % 4 * 50"
+          :data-aos-delay="index < 4 ? 0 : 200"
         >
           <div class="item-wrapper">
             <div class="item-img">

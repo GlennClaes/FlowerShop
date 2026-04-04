@@ -81,7 +81,6 @@ input {
   height: 100% !important;
   object-fit: cover !important;
   object-position: center !important;
-  animation: fadeInImg 0.1s ease-in forwards;
 }
 
 .item-content {
