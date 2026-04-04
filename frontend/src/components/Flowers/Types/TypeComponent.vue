@@ -20,28 +20,30 @@ const filteredFlowers = computed(() => flowersStore.getByCategory(props.category
       <div class="row justify-content-center">
         <div class="col-12 content-head">
           <div class="mbr-section-head mb-5">
-            <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <h1 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2" data-aos="fade-right">
               <strong>{{ category }}</strong>
-            </h2>
+            </h1>
           </div>
         </div>
       </div>
 
-      <div class="row">
+      <div class="row g-3">
         <div
           v-for="(flower, index) in filteredFlowers"
           :key="index"
           class="item features-image col-12 col-md-6 col-lg-3"
+          data-aos="fade-up"
+          :data-aos-delay="index % 4 * 50"
         >
           <div class="item-wrapper">
             <div class="item-img">
               <img
                 :src="flower.image"
                 :alt="flower.name"
-                loading="lazy"
                 decoding="async"
+                :fetchpriority="index === 0 ? 'high' : 'auto'"
                 width="400"
-                height="300"
+                height="400"
                 :data-slide-to="index"
                 :data-bs-slide-to="index"
               />

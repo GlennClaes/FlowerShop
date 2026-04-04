@@ -39,9 +39,13 @@ const getCategoryData = (category) => {
       <div class="row justify-content-center">
         <div class="col-12 content-head">
           <div class="mbr-section-head mb-4">
-            <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <component
+              :is="catIndex === 0 ? 'h1' : 'h2'"
+              class="mbr-section-title mbr-fonts-style align-center mb-0 display-2"
+              data-aos="fade-right"
+            >
               <strong>{{ category }}</strong>
-            </h2>
+            </component>
           </div>
         </div>
       </div>
@@ -49,22 +53,27 @@ const getCategoryData = (category) => {
       <FlowerTextComponent
         :title="getCategoryData(category).title"
         :text="getCategoryData(category).text"
+        data-aos="fade-up"
+        data-aos-delay="200"
       />
 
-      <div class="row">
-        <div
-          v-for="(flower, index) in flowersStore.getByCategory(category)"
-          :key="index"
-          class="item features-image col-12 col-md-6 col-lg-3"
-        >
+        <div class="row g-3">
+          <div
+            v-for="(flower, index) in flowersStore.getByCategory(category)"
+            :key="index"
+            class="item features-image col-12 col-md-6 col-lg-3"
+            data-aos="fade-up"
+            :data-aos-delay="index % 4 * 50"
+          >
           <div class="item-wrapper">
             <div class="item-img">
               <img
                 :src="flower.image"
                 :alt="flower.name"
+                decoding="async"
+                :fetchpriority="index === 0 ? 'high' : 'auto'"
                 width="400"
-                height="300"
-                loading="lazy"
+                height="400"
                 :data-slide-to="index"
                 :data-bs-slide-to="index"
               />

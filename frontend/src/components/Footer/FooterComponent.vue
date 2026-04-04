@@ -8,7 +8,7 @@ const jaar = ref(new Date().getFullYear())
   <section class="footer1 cid-v8hhn5O7xW" once="footers" id="footer01-1j">
     <div class="container">
       <div class="row mbr-white g-4 row-cols-1 row-cols-md-3">
-        <div class="col">
+        <div class="col" data-aos="fade-up" data-aos-delay="0">
           <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-6">
             <strong>Navigatie</strong>
           </h5>
@@ -24,7 +24,7 @@ const jaar = ref(new Date().getFullYear())
             </li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col" data-aos="fade-up" data-aos-delay="100">
           <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-6">
             <strong>Sociale media</strong>
           </h5>
@@ -37,7 +37,7 @@ const jaar = ref(new Date().getFullYear())
             </li>
           </ul>
         </div>
-        <div class="col">
+        <div class="col" data-aos="fade-up" data-aos-delay="200">
           <h5 class="mbr-section-subtitle mbr-fonts-style mb-2 display-6">
             <strong>Contact</strong>
           </h5>

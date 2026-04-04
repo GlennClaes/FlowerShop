@@ -1,5 +1,13 @@
 /* ===== Global CSS voor hele website ===== */
 
+html {
+  scroll-behavior: smooth;
+}
+
+[data-aos] {
+  will-change: transform, opacity;
+}
+
 body,
 h1,
 h2,
@@ -48,10 +56,42 @@ input {
   font-family: 'Inter Tight', sans-serif;
 }
 
-/* ===== Animaties (van animate.css) ===== */
-.animated {
-  animation-duration: 1s;
-  animation-fill-mode: both;
+.item-wrapper {
+  padding: 0 !important;
+  margin: 0 !important;
+  background: transparent !important;
+}
+
+.item-img {
+  width: 100% !important;
+  height: 0 !important;
+  padding-bottom: 100% !important; /* Onfeilbaar vierkant */
+  background-color: #f8f9fa;
+  overflow: hidden;
+  position: relative;
+  border-radius: 16px !important;
+  margin-bottom: 0.5rem !important;
+}
+
+.item-img img {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+  object-position: center !important;
+  animation: fadeInImg 0.1s ease-in forwards;
+}
+
+.item-content {
+  padding: 0 !important;
+  text-align: center;
+}
+
+@keyframes fadeInImg {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
 /* ===== Custom scrollbar ===== */

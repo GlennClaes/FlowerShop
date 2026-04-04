@@ -1,7 +1,9 @@
 <script setup>
-import { ref } from 'vue'
+import { ref, onMounted, onUnmounted } from 'vue'
 
 const isActive = ref(false)
+const isHidden = ref(false)
+const lastScrollTop = ref(0)
 
 const toggleMenu = () => {
   isActive.value = !isActive.value
@@ -10,11 +12,40 @@ const toggleMenu = () => {
 const closeMenu = () => {
   isActive.value = false
 }
+
+const handleScroll = () => {
+  const st = window.pageYOffset || document.documentElement.scrollTop
+  if (st > lastScrollTop.value && st > 100) {
+    // Scroll omlaag: verberg navbar
+    isHidden.value = true
+    isActive.value = false // sluit mobiel menu ook bij scroll
+  } else {
+    // Scroll omhoog of helemaal bovenaan: toon navbar
+    isHidden.value = false
+  }
+  lastScrollTop.value = st <= 0 ? 0 : st
+}
+
+onMounted(() => {
+  window.addEventListener('scroll', handleScroll)
+})
+
+onUnmounted(() => {
+  window.removeEventListener('scroll', handleScroll)
+})
 </script>
 
 <template>
-  <section class="menu menu1 cid-v8hmAqgQnC" id="menu01-1l">
-    <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+  <section 
+    class="menu menu1 cid-v8hmAqgQnC" 
+    id="menu01-1l"
+    :class="{ 'nav-hidden': isHidden }"
+  >
+    <nav
+      class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       <div class="container">
         <div class="navbar-brand">
           <span class="navbar-logo">
@@ -44,7 +75,7 @@ const closeMenu = () => {
 
         <div class="collapse navbar-collapse" :class="{ show: isActive }">
           <ul class="navbar-nav nav-dropdown">
-            <li class="nav-item">
+            <li class="nav-item" data-aos="fade-down" data-aos-delay="200">
               <router-link
                 class="menu-button display-4 fs-5"
                 to="/"
@@ -53,7 +84,7 @@ const closeMenu = () => {
                 Home
               </router-link>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" data-aos="fade-down" data-aos-delay="300">
               <router-link
                 class="menu-button display-4 fs-5"
                 to="/bloemen"
@@ -62,7 +93,7 @@ const closeMenu = () => {
                 Bloemen
               </router-link>
             </li>
-            <li class="nav-item">
+            <li class="nav-item" data-aos="fade-down" data-aos-delay="400">
               <router-link
                 class="menu-button display-4 fs-5"
                 to="/contact"
@@ -178,4 +209,21 @@ const closeMenu = () => {
     padding: 0;
   }
 }
+#menu01-1l {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1001;
+  transition: transform 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.nav-hidden {
+  transform: translateY(-100%);
+}
+
+.navbar {
+  background-color: white !important;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
 </style>
+

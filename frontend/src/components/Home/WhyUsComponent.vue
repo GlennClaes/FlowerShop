@@ -7,14 +7,14 @@
       <div class="row justify-content-center">
         <div class="col-12 col-lg col-md-12">
           <div class="text-wrapper align-left">
-            <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2">
+            <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2" data-aos="fade-up" data-aos-delay="0">
               <strong>Waarom ons?</strong>
             </h1>
-            <p class="mbr-text mbr-fonts-style mb-4 display-7">
+            <p class="mbr-text mbr-fonts-style mb-4 display-7" data-aos="fade-up" data-aos-delay="100">
               Bestel eenvoudig de mooiste bloemen, wij bieden een uitgebreid assortiment aan bloemen
               voor iedere gelegenheid en elk seizoen.&nbsp;
             </p>
-            <div class="mbr-section-btn mt-3">
+            <div class="mbr-section-btn mt-3" data-aos="fade-up" data-aos-delay="200">
               <router-link class="btn-pill btn-secondary display-7" to="/bloemen"
                 >Bekijk Aanbod</router-link
               >

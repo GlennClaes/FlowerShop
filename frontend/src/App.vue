@@ -2,6 +2,7 @@
 import NavbarComponent from '@/components/Navbar/NavbarComponent.vue'
 import HeaderHeroComponent from '@/components/HeaderHeroComponent.vue'
 import FooterComponent from '@/components/Footer/FooterComponent.vue'
+import ScrollToTop from '@/components/ScrollToTop.vue'
 </script>
 
 <template>
@@ -18,6 +19,9 @@ import FooterComponent from '@/components/Footer/FooterComponent.vue'
 
   <!-- FooterComponent -->
   <FooterComponent data-test="footer" />
+
+  <!-- ScrollToTop -->
+  <ScrollToTop />
 </template>
 
 <style scoped></style>

@@ -19,16 +19,16 @@ function sendEmail() {
       <div class="row justify-content-center">
         <div class="col-12 content-head">
           <div class="mbr-section-head mb-5">
-            <h2 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2">
+            <h1 class="mbr-section-title mbr-fonts-style align-center mb-0 display-2" data-aos="fade-right">
               <strong>Contact</strong>
-            </h2>
+            </h1>
           </div>
         </div>
       </div>
       <div class="row justify-content-center">
 
         <!-- Contact info kaart -->
-        <div class="card border-0 col-12 col-md-12 col-lg-6 mb-4">
+        <div class="card border-0 col-12 col-md-12 col-lg-6 mb-4" data-aos="fade-right">
           <div class="card-wrapper">
             <div class="text-wrapper">
               <h3 class="cardTitle mbr-fonts-style mb-2 display-5">
@@ -59,7 +59,7 @@ function sendEmail() {
         </div>
 
         <!-- Formulier kaart -->
-        <div class="card border-0 col-12 col-md-12 col-lg-6 mb-4">
+        <div class="card border-0 col-12 col-md-12 col-lg-6 mb-4" data-aos="fade-left">
           <div class="card-wrapper">
             <div class="text-wrapper">
               <h3 class="cardTitle mbr-fonts-style mb-2 display-5">
