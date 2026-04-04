@@ -1,4 +1,5 @@
 <script setup>
+import { ref, computed, onMounted } from 'vue'
 import { useFlowersStore } from '@/stores/flowersStore'
 import FlowerTextComponent from './FlowerTextComponent.vue'
 
@@ -6,6 +7,14 @@ const flowersStore = useFlowersStore()
 
 // Haal alle categorieën uit de JSON
 const categories = [...new Set(flowersStore.flowers.map((f) => f.category))]
+
+// Progressief laden: begin met 1 of 2 categorieën voor maximale FCP/LCP
+const visibleCategoriesCount = ref(1)
+const loadMoreTrigger = ref(null)
+
+const visibleCategories = computed(() => {
+  return categories.slice(0, visibleCategoriesCount.value)
+})
 
 const categoryDescriptions = {
   Daglelies: {
@@ -25,13 +34,26 @@ const categoryDescriptions = {
 const getCategoryData = (category) => {
   return categoryDescriptions[category] || categoryDescriptions['default']
 }
+
+onMounted(() => {
+  const observer = new IntersectionObserver((entries) => {
+    if (entries[0].isIntersecting && visibleCategoriesCount.value < categories.length) {
+      // Laad de volgende categorieën één voor één bij scroll
+      visibleCategoriesCount.value += 1
+    }
+  }, { threshold: 0.1, rootMargin: '400px' })
+
+  if (loadMoreTrigger.value) {
+    observer.observe(loadMoreTrigger.value)
+  }
+})
 </script>
 
 <template>
   <!-- Loop over alle categorieën -->
   <section
-    v-for="(category, catIndex) in categories"
-    :key="catIndex"
+    v-for="(category, catIndex) in visibleCategories"
+    :key="category"
     class="pricing02 cid-v8hqljKCPM"
     :id="`pricing02-${catIndex}`"
   >
@@ -94,6 +116,9 @@ const getCategoryData = (category) => {
   </section>
 
   <input name="animation" type="hidden" />
+
+  <!-- Sentinel voor progressief laden -->
+  <div ref="loadMoreTrigger" class="load-more-sentinel" style="height: 10px; width: 100%;"></div>
 </template>
 
 
