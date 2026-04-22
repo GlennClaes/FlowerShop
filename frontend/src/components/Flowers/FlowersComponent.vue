@@ -19,11 +19,11 @@ const visibleCategories = computed(() => {
 const categoryDescriptions = {
   Daglelies: {
     title: 'Verzorging',
-    text: 'Standplaats volle zon of halfshaduw. <br> Na de bloei de uitgebloeide stengels verwijderen. <br> <br> Bemesting: 1x voorjaar, 1x najaar. <br> Met bloed of beendermeel. <br> <br> Als de plant te groot word, kan deze in het najaar gescheurd worden.',
+    text: 'Standplaats volle zon of halfschaduw. <br> Na de bloei de uitgebloeide stengels verwijderen. <br> <br> Bemesting: 1x voorjaar, 1x najaar. <br> Met bloed of beendermeel. <br> <br> Als de plant te groot word, kan deze in het najaar gescheurd worden. <br> <br> De daglelies worden vanaf september verzonden met blote wortel.',
   },
   Irissen: {
     title: 'Verzorging en plantwijze',
-    text: 'De knollen van de irissen moeten bovenop de aarde liggen en liefst met de knol naar het zuiden. <br> Na het bloeien de stengels verwijderen en eventueel de lelijke bladeren een beetje afknippen. <br> <br> Standplaats: Volle zon <br> Bemesting: 1x voorjaar, 1x najaar. <br> Met bloed of beendermeel.',
+    text: 'De knollen van de irissen moeten bovenop de aarde liggen en liefst met de knol naar het zuiden. <br> Na het bloeien de stengels verwijderen en eventueel de lelijke bladeren een beetje afknippen. <br> <br> Standplaats: Volle zon <br> Bemesting: 1x voorjaar, 1x najaar. <br> Met bloed of beendermeel. <br> <br> De irissen worden vanaf augustus  verzonden met blote wortel.',
   },
   default: {
     title: 'Lorem Ipsum',

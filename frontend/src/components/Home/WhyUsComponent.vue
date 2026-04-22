@@ -8,11 +8,14 @@
         <div class="col-12 col-lg col-md-12">
           <div class="text-wrapper align-left">
             <h1 class="mbr-section-title mbr-fonts-style mb-4 display-2" data-aos="fade-up" data-aos-delay="0">
-              <strong>Waarom ons?</strong>
+              <strong>Over ons</strong>
             </h1>
             <p class="mbr-text mbr-fonts-style mb-4 display-7" data-aos="fade-up" data-aos-delay="100">
-              Bestel eenvoudig de mooiste bloemen, wij bieden een uitgebreid assortiment aan bloemen
-              voor iedere gelegenheid en elk seizoen.&nbsp;
+              Ik ben een hobbykweker,met een grote passie  voor de
+              Germaanse baardirissen en daglelies ( hemerocallis ).
+              In de loop van de jaren, heb ik een kleine verzameling opgebouwd. 
+              Al de planten worden zelf gekweekt  en zonder bestrijdings middelen. 
+              Alvast veel kijkplezier gewenst.&nbsp;
             </p>
             <div class="mbr-section-btn mt-3" data-aos="fade-up" data-aos-delay="200">
               <router-link class="btn-pill btn-secondary display-7" to="/bloemen"
