@@ -24,7 +24,7 @@ describe('WhyUsComponent', () => {
       },
     })
     const title = wrapper.find('h1.mbr-section-title')
-    expect(title.text()).toBe('Waarom ons?')
+    expect(title.text()).toBe('Over ons')
   })
 
   it('toont de juiste beschrijvingstekst', () => {
@@ -37,7 +37,7 @@ describe('WhyUsComponent', () => {
     })
     const paragraph = wrapper.find('p.mbr-text')
     expect(paragraph.text()).toContain(
-      'Bestel eenvoudig de mooiste bloemen, wij bieden een uitgebreid assortiment aan bloemen voor iedere gelegenheid en elk seizoen.'
+      'Ik ben een hobbykweker, met een grote passie voor de Germaanse baardirissen en daglelies (hemerocallis). In de loop van de jaren, heb ik een kleine verzameling opgebouwd. Al de planten worden zelf gekweekt en zonder bestrijdings middelen. Alvast veel kijkplezier gewenst.'
     )
   })
 

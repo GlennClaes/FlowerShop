@@ -11,11 +11,7 @@
               <strong>Over ons</strong>
             </h1>
             <p class="mbr-text mbr-fonts-style mb-4 display-7" data-aos="fade-up" data-aos-delay="100">
-              Ik ben een hobbykweker,met een grote passie  voor de
-              Germaanse baardirissen en daglelies ( hemerocallis ).
-              In de loop van de jaren, heb ik een kleine verzameling opgebouwd. 
-              Al de planten worden zelf gekweekt  en zonder bestrijdings middelen. 
-              Alvast veel kijkplezier gewenst.&nbsp;
+              Ik ben een hobbykweker, met een grote passie voor de Germaanse baardirissen en daglelies (hemerocallis). In de loop van de jaren, heb ik een kleine verzameling opgebouwd. Al de planten worden zelf gekweekt en zonder bestrijdings middelen. Alvast veel kijkplezier gewenst.&nbsp;
             </p>
             <div class="mbr-section-btn mt-3" data-aos="fade-up" data-aos-delay="200">
               <router-link class="btn-pill btn-secondary display-7" to="/bloemen"
