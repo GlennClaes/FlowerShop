@@ -11,9 +11,9 @@ test.describe('WhyUsComponent E2E', () => {
     const title = page.locator('section.header1 h1.mbr-section-title')
     const paragraph = page.locator('section.header1 p.mbr-text')
 
-    await expect(title).toHaveText('Waarom ons?')
+    await expect(title).toHaveText('Over ons')
     await expect(paragraph).toContainText(
-      'Bestel eenvoudig de mooiste bloemen, wij bieden een uitgebreid assortiment aan bloemen voor iedere gelegenheid en elk seizoen.'
+      'Ik ben een hobbykweker, met een grote passie voor de Germaanse baardirissen en daglelies (hemerocallis). In de loop van de jaren, heb ik een kleine verzameling opgebouwd. Al de planten worden zelf gekweekt en zonder bestrijdings middelen. Alvast veel kijkplezier gewenst.'
     )
   })
 
