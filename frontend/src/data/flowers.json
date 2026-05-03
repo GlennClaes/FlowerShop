@@ -816,6 +816,654 @@
     "price": "€10,00"
   },
   {
+    "name": "Ablaze",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dwergirissen/ablaze.jpeg",
+    "price": "Hoogte 15cm - €4,00"
+  },
+  {
+    "name": "Blue Denim",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dwergirissen/blue-denim.jpeg",
+    "price": "Hoogte 36cm - €4,00"
+  },
+  {
+    "name": "Bright White",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dwergirissen/bright-white.jpeg",
+    "price": "Hoogte 36cm - €4,00"
+  },
+  {
+    "name": "Eye Of The Tiger",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dwergirissen/eye-of-the-tiger.jpeg",
+    "price": "Hoogte 35cm - €5,00"
+  },
+  {
+    "name": "Gleaming Gold",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dwergirissen/gleaming-gold.jpeg",
+    "price": "Hoogte 36cm - €4,00"
+  },
+  {
+    "name": "Green Spot",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dwergirissen/green-spot.jpeg",
+    "price": "Hoogte 25cm - €4,00"
+  },
+  {
+    "name": "Glanzlicht",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dwergirissen/glanzlicht.jpeg", 
+    "price": "Hoogte 36cm - €5,00"
+  },
+  {
+    "name": "My Cher",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dwergirissen/my-cher.png",
+    "price": "Hoogte 38cm - €5,00"
+  },
+  {
+    "name": "Open Your Eyes",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dwergirissen/open-your-eyes.jpeg",
+    "price": "Hoogte 38cm - €5,00"
+  },
+  {
+    "name": "Whee",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dwergirissen/whee.jpeg",
+    "price": "Hoogte 30cm - €5,00"
+  },
+  {
+    "name": "Acoma",
+    "category": "Irissen",
+    "image": "assets/images/irissen/acoma.jpeg",
+    "price": "Hoogte 71cm - €6,00"
+  },
+  {
+    "name": "Acapulco Gold",
+    "category": "Irissen",
+    "image": "assets/images/irissen/acapulco-gold.jpeg",
+    "price": "Hoogte 84cm - €6,00"
+  },
+  {
+    "name": "Accessible",
+    "category": "Irissen",
+    "image": "assets/images/irissen/accessible.jpeg",
+    "price": "Hoogte 92cm - €8,50"
+  },
+  {
+    "name": "Admiral Nelson",
+    "category": "Irissen",
+    "image": "assets/images/irissen/admiral-nelson.jpeg",
+    "price": "Hoogte 106cm - €9,00"
+  },
+  {
+    "name": "Aif Of Mystery",
+    "category": "Irissen",
+    "image": "assets/images/irissen/aif-of-mystery.jpeg",
+    "price": "Hoogte 94cm - €10,00"
+  },
+  {
+    "name": "Agressively Forward",
+    "category": "Irissen",
+    "image": "assets/images/irissen/agressively-forward.jpeg",
+    "price": "Hoogte 91cm - €8,50"
+  },
+  {
+    "name": "All About Me",
+    "category": "Irissen",
+    "image": "assets/images/irissen/all-about-me.jpeg",
+    "price": "Hoogte 94cm - €8,00"
+  },
+  {
+    "name": "American Patriot",
+    "category": "Irissen",
+    "image": "assets/images/irissen/american-patriot.jpeg",
+    "price": "Hoogte 53cm - €5,00"
+  },
+  {
+    "name": "Ambertime",
+    "category": "Irissen",
+    "image": "assets/images/irissen/ambertime.jpeg",
+    "price": "Hoogte 84cm - €8,50"
+  },
+  {
+    "name": "Ancient Treasure",
+    "category": "Irissen",
+    "image": "assets/images/irissen/ancient-treasure.jpeg",
+    "price": "Hoogte 91cm - €9,00"
+  },
+  {
+    "name": "Art Déco",
+    "category": "Irissen",
+    "image": "assets/images/irissen/art-deco.jpeg",
+    "price": "Hoogte 85cm - €7,50"
+  },
+  {
+    "name": "Arthouse",
+    "category": "Irissen",
+    "image": "assets/images/irissen/arthouse.jpeg",
+    "price": "Hoogte 89cm - €9,00"
+  },
+  {
+    "name": "A Star Is Born",
+    "category": "Irissen",
+    "image": "assets/images/irissen/a-star-is-born.jpeg",
+    "price": "Hoogte 89cm - €7,00"
+  },
+  {
+    "name": "Asha Michelle",
+    "category": "Irissen",
+    "image": "assets/images/irissen/asha-michelle.jpeg",
+    "price": "Hoogte 97cm - €6,00"
+  },
+  {
+    "name": "Ask A Lady",
+    "category": "Irissen",
+    "image": "assets/images/irissen/ask-a-lady.jpeg",
+    "price": "Hoogte 91cm - €8,50"
+  },
+  {
+    "name": "Autumn Echo",
+    "category": "Irissen",
+    "image": "assets/images/irissen/autumn-echo.jpeg",
+    "price": "Hoogte 91cm - €7,00"
+  },
+  {
+    "name": "Autumn Years",
+    "category": "Irissen",
+    "image": "assets/images/irissen/autumn-years.jpeg",
+    "price": "Hoogte 84cm - €6,00"
+  },
+  {
+    "name": "Aztec Art",
+    "category": "Irissen",
+    "image": "assets/images/irissen/aztec-art.jpeg",
+    "price": "Hoogte 84cm - €8,50"
+  },
+  {
+    "name": "Batik",
+    "category": "Irissen",
+    "image": "assets/images/irissen/batik.jpeg",
+    "price": "Hoogte 66cm - €6,00"
+  },
+  {
+    "name": "Bal Masqué",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bal-masque.jpeg",
+    "price": "Hoogte 86cm - €8,50"
+  },
+  {
+    "name": "Barbara May",
+    "category": "Irissen",
+    "image": "assets/images/irissen/barabara-may.jpeg",
+    "price": "Hoogte 89cm - €8,00"
+  },
+  {
+    "name": "Baby I Love You",
+    "category": "Irissen",
+    "image": "assets/images/irissen/baby-i-love-you.jpeg",
+    "price": "Hoogte 89cm - €8,00"
+  },
+  {
+    "name": "Bargain Hunter",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bargain-hunter.jpeg",
+    "price": "Hoogte 99cm - €8,00"
+  },
+  {
+    "name": "Ballerina Queen",
+    "category": "Irissen",
+    "image": "assets/images/irissen/ballerina-queen.jpeg",
+    "price": "Hoogte 83cm - €8,50"
+  },
+  {
+    "name": "Berserk",
+    "category": "Irissen",
+    "image": "assets/images/irissen/berserk.jpeg",
+    "price": "Hoogte 76cm - €8,00"
+  },
+  {
+    "name": "Benazir",
+    "category": "Irissen",
+    "image": "assets/images/irissen/benazir.jpeg",
+    "price": "Hoogte 60cm - €6,00"
+  },
+  {
+    "name": "Beautiful Victoria",
+    "category": "Irissen",
+    "image": "assets/images/irissen/beautiful-victoria.jpeg",
+    "price": "Hoogte 92cm - €8,00"
+  },
+  {
+    "name": "Belle Hortense",
+    "category": "Irissen",
+    "image": "assets/images/irissen/belle-hortense.jpeg",
+    "price": "Hoogte 80cm - €8,00"
+  },
+  {
+    "name": "Belgian Princess",
+    "category": "Irissen",
+    "image": "assets/images/irissen/belgian-princess.jpeg",
+    "price": "Hoogte 99cm - €7,50"
+  },
+  {
+    "name": "Bistro",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bistro.jpeg",
+    "price": "Hoogte 69cm - €6,00"
+  },
+  {
+    "name": "Bientot L'étè",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bientot-l-ete.jpeg",
+    "price": "Hoogte 81cm - €8,00"
+  },
+  {
+    "name": "Blue Suede Shoes",
+    "category": "Irissen",
+    "image": "assets/images/irissen/blue-suede-shoes.jpeg",
+    "price": "Hoogte 99cm - €6,00"
+  },
+  {
+    "name": "Black Tie Affair",
+    "category": "Irissen",
+    "image": "assets/images/irissen/black-tie-affair.jpeg",
+    "price": "Hoogte 92cm - €9,00"
+  },
+  {
+    "name": "Bold As Love",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bold-as-love.jpeg",
+    "price": "Hoogte 89cm - €6,00"
+  },
+  {
+    "name": "Bold Vision",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bold-vision.jpeg",
+    "price": "Hoogte 74cm - €8,50"
+  },
+  {
+    "name": "Bottle Rocket",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bottle-rocket.jpeg",
+    "price": "Hoogte 89cm - €8,50"
+  },
+  { 
+    "name": "Broadminded",
+    "category": "Irissen",
+    "image": "assets/images/irissen/broadminded.jpeg",
+    "price": "Hoogte 86cm - €7,50"
+  },
+  {
+    "name": "Bratislavan Prince",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bratislavan-prince.jpeg",
+    "price": "Hoogte 78cm - €8,00"
+  },
+  {
+    "name": "Bratislavan",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bratislavan.jpeg",
+    "price": "Hoogte 100cm - €8,00"
+  },
+  {
+    "name": "Bronze Peacock",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bronze-peacock.jpeg",
+    "price": "Hoogte 102cm - €8,50"
+  },
+  {
+    "name": "Bronzeheart",
+    "category": "Irissen",
+    "image": "assets/images/irissen/bronzeheart.jpeg",
+    "price": "Hoogte 86cm - €9,00"
+  },
+  {
+    "name": "Broome Sunset",
+    "category": "Irissen",
+    "image": "assets/images/irissen/broome-sunset.jpeg",
+    "price": "Hoogte 94cm - €6,00"
+  },
+  {
+    "name": "Brook Flower",
+    "category": "Irissen",
+    "image": "assets/images/irissen/brook-flower.jpeg",
+    "price": "Hoogte 94cm - €6,00"
+  },
+  {
+    "name": "Burnt Toffee",
+    "category": "Irissen",
+    "image": "assets/images/irissen/burnt-toffee.jpeg",
+    "price": "Hoogte 94cm - €6,00"
+  },
+  {
+    "name": "Burgundy Brown",
+    "category": "Irissen",
+    "image": "assets/images/irissen/burgundy-brown.jpeg",
+    "price": "Hoogte 91cm - €6,00"
+  },
+  {
+    "name": "Butterfly Affair",
+    "category": "Irissen",
+    "image": "assets/images/irissen/butterfly-affair.jpeg",
+    "price": "Hoogte 91cm - €9,00"
+  },
+  {
+    "name": "By By Love",
+    "category": "Irissen",
+    "image": "assets/images/irissen/by-by-love.jpeg",
+    "price": "Hoogte 86cm - €8,00"
+  },
+  {
+    "name": "Café D'amour",
+    "category": "Irissen",
+    "image": "assets/images/irissen/cafe-damouar.jpeg",
+    "price": "Hoogte 94cm - €8,50"
+  },
+  {
+    "name": "Calypso Heatwave",
+    "category": "Irissen",
+    "image": "assets/images/irissen/calypso-heatwave.jpeg",
+    "price": "Hoogte 61cm - €5,00"
+  },
+  {
+    "name": "Calsbash",
+    "category": "Irissen",
+    "image": "assets/images/irissen/calsbash.jpeg",
+    "price": "Hoogte 91cm - €8,00"
+  },
+  {
+    "name": "Cameo Wine",
+    "category": "Irissen",
+    "image": "assets/images/irissen/cameo-wine.jpeg",
+    "price": "Hoogte 91cm - €6,00"
+  },
+  {
+    "name": "Cameo Appearance",
+    "category": "Irissen",
+    "image": "assets/images/irissen/cameo-appearance.jpeg",
+    "price": "Hoogte 102cm - €8,00"
+  },
+  {
+    "name": "Cameo Minx",
+    "category": "Irissen",
+    "image": "assets/images/irissen/cameo-minx.jpeg",
+    "price": "Hoogte 91cm - €8,00"
+  },
+  {
+    "name": "Celtic Melody",
+    "category": "Irissen",
+    "image": "assets/images/irissen/celtic-melody.jpeg",
+    "price": "Hoogte 91cm - €8,00"
+  },
+  {
+    "name": "Champagne And Strawberries",
+    "category": "Irissen",
+    "image": "assets/images/irissen/champagne-and-strawberries.jpeg",
+    "price": "Hoogte 89cm - €8,50"
+  },
+  {
+    "name": "Ciel Gris Sur Pouily",
+    "category": "Irissen",
+    "image": "assets/images/irissen/ciel-gris-sur-pouily.jpeg",
+    "price": "Hoogte 79cm - €7,50"
+  },
+  { 
+    "name": "Changing Seasons",
+    "category": "Irissen",
+    "image": "assets/images/irissen/changing-seasons.jpeg",
+    "price": "Hoogte 91cm - €9,00"
+  },
+  {
+    "name": "Change Of Pace",
+    "category": "Irissen",
+    "image": "assets/images/irissen/change-of-pace.jpeg",
+    "price": "Hoogte 91cm - €7,50"
+  },
+  {
+    "name": "Champagne Elegance",
+    "category": "Irissen",
+    "image": "assets/images/irissen/champagne-elegance.jpeg",
+    "price": "Hoogte 84cm - €8,00"
+  },
+  {
+    "name": "Champagne Waltz",
+    "category": "Irissen",
+    "image": "assets/images/irissen/champagne-waltz.jpeg",
+    "price": "Hoogte 91cm - €8,50"
+  },
+  {
+    "name": "Cast A Spell",
+    "category": "Irissen",
+    "image": "assets/images/irissen/cast-a-spell.jpeg",
+    "price": "Hoogte 95cm - €7,00"
+  },
+  {
+    "name": "Carnival Capers",
+    "category": "Irissen",
+    "image": "assets/images/irissen/carnival-capers.jpeg",
+    "price": "Hoogte 91cm - €9,00"
+  },
+  {
+    "name": "Catwalk Queen",
+    "category": "Irissen",
+    "image": "assets/images/irissen/catwalk-queen.jpeg",
+    "price": "Hoogte 86cm - €10,00"
+  },
+  {
+    "name": "Careless Whisper",
+    "category": "Irissen",
+    "image": "assets/images/irissen/careless-whisper.jpeg",
+    "price": "Hoogte 97cm - €8,00"
+  },
+  {
+    "name": "Cherub Smile",
+    "category": "Irissen",
+    "image": "assets/images/irissen/cherub-smile.jpeg",
+    "price": "Hoogte 80cm - €6,00"
+  },
+  {
+    "name": "Credentials",
+    "category": "Irissen",
+    "image": "assets/images/irissen/credentials.jpeg",
+    "price": "Hoogte 85cm - €8,00"
+  },
+  {
+    "name": "Cinnamaron Trail",
+    "category": "Irissen",
+    "image": "assets/images/irissen/cinnamaron-trail.jpeg",
+    "price": "Hoogte 86cm - €8,50"
+  },
+  {
+    "name": "Coctail",
+    "category": "Irissen",
+    "image": "assets/images/irissen/coctail.jpeg",
+    "price": "Hoogte 86cm - €8,00"
+  },
+  {
+    "name": "Confusione",
+    "category": "Irissen",
+    "image": "assets/images/irissen/confusione.jpeg",
+    "price": "Hoogte 92cm - €6,00"
+  },
+  {
+    "name": "Confidante",
+    "category": "Irissen",
+    "image": "assets/images/irissen/confidante.jpeg",
+    "price": "Hoogte 87cm - €8,50"
+  },
+  {
+    "name": "Comedy",
+    "category": "Irissen",
+    "image": "assets/images/irissen/comedy.jpeg",
+    "price": "Hoogte 91cm - €9,00"
+  },
+  {
+    "name": "Comes The Dawn",
+    "category": "Irissen",
+    "image": "assets/images/irissen/comes-the-dawn.jpeg",
+    "price": "Hoogte 102cm - €8,00"
+  },
+  {
+    "name": "Coffee Whisper",
+    "category": "Irissen",
+    "image": "assets/images/irissen/coffee-whisper.jpeg",
+    "price": "Hoogte 91cm - €8,00"
+  },
+  {
+    "name": "Coffee Trader",
+    "category": "Irissen",
+    "image": "assets/images/irissen/coffee-trader.jpeg",
+    "price": "Hoogte 96cm - €9,00"
+  },
+  {
+    "name": "Core Values",
+    "category": "Irissen",
+    "image": "assets/images/irissen/core-values.jpeg",
+    "price": "Hoogte 97cm - €8,50"
+  },
+  {
+    "name": "Colour Bazaar",
+    "category": "Irissen",
+    "image": "assets/images/irissen/colour-bazaar.jpeg",
+    "price": "Hoogte 91cm - €10,00"
+  },
+  {
+    "name": "Colourable",
+    "category": "Irissen",
+    "image": "assets/images/irissen/colourable.jpeg",
+    "price": "Hoogte 91cm - €8,50"
+  },
+  {
+    "name": "Colortart",
+    "category": "Irissen",
+    "image": "assets/images/irissen/colortart.jpeg",
+    "price": "Hoogte 85cm - €6,00"
+  },
+  {
+    "name": "Dark Rosaleen",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dark-rosaleen.jpeg",
+    "price": "Hoogte 76cm - €6,00"
+  },
+  {
+    "name": "Dame De Coeur",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dame-de-coeur.jpeg",
+    "price": "Hoogte 89cm - €8,50"
+  },
+  {
+    "name": "Dangerous Mood",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dangerous-mood.jpeg",
+    "price": "Hoogte 91cm - €8,50"
+  },
+  {
+    "name": "Dancing On Air",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dancing-on-air.jpeg",
+    "price": "Hoogte 84cm - €8,50"
+  },
+  {
+    "name": "Dazzling Gold",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dazzling-gold.jpeg",
+    "price": "Hoogte 74cm - €8,50"
+  },
+  {
+    "name": "Delirium",
+    "category": "Irissen",
+    "image": "assets/images/irissen/delirium.jpeg",
+    "price": "Hoogte 69cm - €6,00"
+  },
+  {
+    "name": "Dear Jean",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dear-jean.jpeg",
+    "price": "Hoogte 97cm - €6,00"
+  },
+  {
+    "name": "Décadence",
+    "category": "Irissen",
+    "image": "assets/images/irissen/decadence.jpeg",
+    "price": "Hoogte 96cm - €9,00"
+  },
+  {
+    "name": "Dearie",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dearie.jpeg",
+    "price": "Hoogte 91cm - €8,00"
+  },
+  {
+    "name": "Diva Do",
+    "category": "Irissen",
+    "image": "assets/images/irissen/diva-do.jpeg",
+    "price": "Hoogte 81cm - €8,00"
+  },
+  {
+    "name": "Dark Energy",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dark-energy.jpeg",
+    "price": "Hoogte 89cm - €8,00"
+  },
+  {
+    "name": "Dialect",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dialect.jpeg",
+    "price": "Hoogte 81cm - €8,50"
+  },
+  {
+    "name": "Discovered Treasure",
+    "category": "Irissen",
+    "image": "assets/images/irissen/discovered-treasure.jpeg",
+    "price": "Hoogte 87cm - €6,00"
+  },
+  {
+    "name": "Double Plantinium",
+    "category": "Irissen",
+    "image": "assets/images/irissen/double-plantinium.jpeg",
+    "price": "Hoogte 91cm - €8,00"
+  },
+  {
+    "name": "Douce Reversie",
+    "category": "Irissen",
+    "image": "assets/images/irissen/douce-reversie.jpeg",
+    "price": "Hoogte 85cm - €7,50"
+  },
+  {
+    "name": "Drama Queen",
+    "category": "Irissen",
+    "image": "assets/images/irissen/drama-queen.jpeg",
+    "price": "Hoogte 97cm - €8,50"
+  },
+  {
+    "name": "Dracula's Kiss",
+    "category": "Irissen",
+    "image": "assets/images/irissen/draculas-kiss.jpeg",
+    "price": "Hoogte 91cm - €8,50"
+  },
+  {
+    "name": "Drifting Bubbles",
+    "category": "Irissen",
+    "image": "assets/images/irissen/drifting-bubbles.jpeg",
+    "price": "Hoogte 98cm - €8,00"
+  },
+  {
+    "name": "Dream Of You",
+    "category": "Irissen",
+    "image": "assets/images/irissen/dream-of-you.jpeg",
+    "price": "Hoogte 99cm - €7,50"
+  },
+  {
+    "name": "Drinks At Sunset",
+    "category": "Irissen",
+    "image": "assets/images/irissen/drinks-at-sunset.jpeg",
+    "price": "Hoogte 91cm - €9,00"
+  },
+  {
     "name": "Binnenkort",
     "category": "Irissen",
     "image": "assets/images/logo.png",
